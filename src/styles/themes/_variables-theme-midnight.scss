@@ -1,36 +1,36 @@
 /**
  * @author Ryan Balieiro
- * @description Dark theme colors.
+ * @description Midnight theme colors.
  */
 
 @import "theme-variables-builder";
 
-$primary: #8bdbf8;
-$secondary: #a4afb5;
-$dark: darken(#10141a, 2%);
-$danger: #fdd2d2;
-$muted: #6c757d;
+$primary: #8beff8;
+$secondary: #7f8fa6;
+$dark: #0a1120;
+$danger: #f8c7c7;
+$muted: #5c6b7a;
 
-$base-bg: #0a0d12;
-$base-bg-light: #12161d;
-$base-bg-dark: #07090d;
+$base-bg: #070d19;
+$base-bg-light: #0c1322;
+$base-bg-dark: #050512;
 
-$texts: #EEEEEE;
-$texts-inverted: #0f1114;
+$texts: #e0e8f0;
+$texts-inverted: #0f1217;
 
-$base-container-bg: #14181f;
-$base-container-bg-accent: #1b1f26;
-$base-popover-bg: #0c0f14;
+$base-container-bg: lighten(#0a1120, 2%);
+$base-container-bg-accent: lighten(#101a30, 2%);
+$base-popover-bg: #050a12;
 $base-boards: lighten($base-container-bg, 3%);
 $base-info-badges: lighten($dark, 3%);
 $empty: darken($base-container-bg, 5%);
-$empty-accent: #14181f;
+$empty-accent: #0a1120;
 
-$borders: #181c22;
-$scrollbar-track: #0d1015;
-$scrollbar-thumb: #2b2f36;
+$borders: lighten(#0a1120, 4%);
+$scrollbar-track: #0a0f1a;
+$scrollbar-thumb: #212e3b;
 
-:root {
+[data-theme="midnight"] {
     @include build-theme(
         // Theme Config...
         /** DARK MODE: **/                  true,

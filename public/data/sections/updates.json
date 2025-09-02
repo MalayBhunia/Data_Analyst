@@ -7,27 +7,20 @@
                 "title_long_prefix": "Take a look at my",
                 "title_long": "Recent {{Updates}}"
             },
-            "es": {
-                "title_short": "Vida Reciente",
-                "title_short_nav": "Actualizaciones",
-                "title_long_prefix": "Consulta mis",
-                "title_long": "Actualizaciones {{Recientes}}"
+            "hi": {
+                "title_short": "हाल ही में जीवन",
+                "title_short_nav": "अपडेट",
+                "title_long_prefix": "मेरे जीवन पर एक नज़र डालें",
+                "title_long": "हाल ही के {{अपडेट}}"
             },
-            "fr": {
-                "title_short": "Vie Récente",
-                "title_short_nav": "Mises à Jour",
-                "title_long_prefix": "Découvrez mes",
-                "title_long": "Dernières {{Mises à Jour}}"
-            },
-            "ko": {
-                "title_short": "최근의 삶",
-                "title_short_nav": "업데이트",
-                "title_long_prefix": "내 최근",
-                "title_long": "{{업데이트}}를 확인해 보세요"
+            "ben": {
+                "title_short": "সাম্প্রতিক জীবন",
+                "title_short_nav": "আপডেট",
+                "title_long_prefix": "আমারটা একবার দেখে নাও",
+                "title_long": "সাম্প্রতিক {{আপডেট}}"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -41,87 +34,66 @@
                 {
                     "id": 1,
                     "img": null,
-                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIcon": "fa-solid fa-chart-pie",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "title": "03",
-                            "text": "Apps Published"
+                            "title": "05",
+                            "text": "Created Dashboard"
                         },
-                        "es": {
-                            "text": "Aplicaciones Publicadas"
+                        "hi": {
+                            "title": "05",
+                            "text": "डैशबोर्ड बनाया गया"
                         },
-                        "fr": {
-                            "text": "Applications Publiées"
-                        },
-                        "ko": {
-                            "text": "출시된 앱"
+                        "ben": {
+                            "title": "০৫",
+                            "text": "ড্যাশবোর্ড তৈরি করা হয়েছে"
                         }
                     }
                 },
+
                 {
                     "id": 2,
                     "img": null,
-                    "faIcon": "fa-solid fa-star",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "100+",
-                            "text": "Stars on GitHub"
-                        },
-                        "es": {
-                            "text": "Estrellas en GitHub"
-                        },
-                        "fr": {
-                            "text": "Étoiles sur GitHub"
-                        },
-                        "ko": {
-                            "text": "GitHub의 별"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": null,
-                    "faIcon": "fa-solid fa-globe",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "12",
-                            "text": "Countries visited"
-                        },
-                        "es": {
-                            "text": "Países Visitados"
-                        },
-                        "fr": {
-                            "text": "Pays Visités"
-                        },
-                        "ko": {
-                            "text": "방문한 국가"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": null,
-                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIcon": "fa-solid fa-user",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
                             "title": "07",
-                            "text": "Open-source projects"
+                            "text": "Satisfied Clients"
                         },
-                        "es": {
-                            "text": "Proyectos de Código Abierto"
+                        "hi": {
+                            "title": "07",
+                            "text": "संतुष्ट ग्राहक"
                         },
-                        "fr": {
-                            "text": "Projets Open-source"
-                        },
-                        "ko": {
-                            "text": "오픈 소스 프로젝트"
+                        "ben": {
+                            "title": "০৭",
+                            "text": "সন্তুষ্ট ক্লায়েন্ট"
                         }
                     }
                 },
+
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-user-tie",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "04",
+                            "text": "Portfolio Published"
+                        },
+                        "hi": {
+                            "title": "04",
+                            "text": "पोर्टफोलियो प्रकाशित"
+                        },
+                        "ben": {
+                            "title": "০৪",
+                            "text": "পোর্টফোলিও প্রকাশিত"
+                        }
+                    }
+                },
+
                 {
                     "id": 5,
                     "img": null,
@@ -129,20 +101,21 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "title": "20,000",
+                            "title": "7,000+",
                             "text": "Coffees consumed"
                         },
-                        "es": {
-                            "text": "Cafés Consumidos"
+                        "hi": {
+                            "title": "7,000+",
+                            "text": "कॉफ़ी पी गई"
                         },
-                        "fr": {
-                            "text": "Cafés Consommés"
-                        },
-                        "ko": {
-                            "text": "소비된 커피"
+                        "ben": {
+                            "title": "৭,০০০+",
+                            "text": "কফি খাওয়া হয়েছে"
                         }
                     }
                 },
+
+
                 {
                     "id": 6,
                     "img": null,
@@ -150,20 +123,20 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "title": "1,000,000+",
+                            "title": "1,000,00+",
                             "text": "Lines of code"
                         },
-                        "es": {
-                            "text": "Líneas de código"
+                        "hi": {
+                            "title": "1,000,00+",
+                            "text": "कोड की पंक्तियाँ"
                         },
-                        "fr": {
-                            "text": "Lignes de code"
-                        },
-                        "ko": {
-                            "text": "코드 라인 수"
+                        "ben": {
+                            "title": "১,০০০,০০+",
+                            "text": "কোডের লাইন"
                         }
                     }
                 },
+
                 {
                     "id": 7,
                     "img": null,
@@ -174,17 +147,13 @@
                             "title": "Infinite",
                             "text": "Passion for learning"
                         },
-                        "es": {
-                            "title": "Infinita",
-                            "text": "Pasión por Aprender"
+                        "hi": {
+                            "title": "अनंत",
+                            "text": "सीखने का जुनून"
                         },
-                        "fr": {
-                            "title": "Infinie",
-                            "text": "Passion d'apprendre"
-                        },
-                        "ko": {
-                            "title": "무한대",
-                            "text": "배움에 대한 열정"
+                        "ben": {
+                            "title": "অসীম",
+                            "text": "শেখার প্রতি আগ্রহ"
                         }
                     }
                 }
@@ -195,271 +164,220 @@
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": { "title": "Quick {{Facts}}" },
-                "es": { "title": "Feed de {{Noticias}}" },
-                "fr": { "title": "Fil d'{{Actualités}}" },
-                "ko": { "title": "{{뉴스}} 피드" }
+                "en": { "title": "Life {{Updates}}" },
+                "hi": { "title": "जीवन {{अपडेट}}" },
+                "ben": { "title": "জীবন {{আপডেট}}" }
             },
             "settings": {
-                "max_rows_collapse_threshold": 3,
-                "order_items_by": "dateStart",
-                "order_items_sort": "desc"
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "date": {"year": 2022, "month": 9},
+                    "date": {"year": 2025, "month": 7},
                     "preview": {
-                        "links": [],
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "open_website", "faIcon": "fa-brands fa-github"}
+                        ],
                         "screenshots": [],
-                        "screenshotsAspectRatio": "",
+                        "screenshotsAspectRatio": "1:1",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Relocating to {{California!}}",
-                            "province": "Ontario",
-                            "country": "Canada",
+                            "title": "Working on {{Data Analyst projects}}",
+                            "country": "India",
                             "institution": "",
-                            "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
+                            "text": "Working on diverse Data Analyst projects involving data cleaning, analysis, and visualization, extracting actionable insights {{using Python, SQL, Excel, and Power BI}} to support informed decision-making and optimize business performance."
                         },
-                        "es": {
-                            "title": "Mudándome a {{California!}}",
-                            "province": "Ontario",
-                            "country": "Canadá",
+                        "hi": {
+                            "title": "{{डेटा विश्लेषक परियोजनाओं}} पर काम कर रहा/रही हूँ",
+                            "country": "भारत",
                             "institution": "",
-                            "text": "Recientemente me he mudado a California, EE.UU., para explorar nuevas oportunidades, tanto profesionales como personales. Estoy deseando descubrir lo que este vibrante estado tiene para ofrecer y abrazar todos los desafíos y experiencias que vienen con este nuevo capítulo de mi vida. ¡Emocionado por lo que está por venir! Mantente atento a las actualizaciones sobre mi viaje y las aventuras que me esperan en el Estado Dorado."
+                            "text": "डेटा क्लीनिंग, विश्लेषण और विज़ुअलाइज़ेशन से जुड़ी विविध डेटा विश्लेषक परियोजनाओं पर काम कर रहा/रही हूँ, और सूचित निर्णय लेने में सहायता करने और व्यावसायिक प्रदर्शन को अनुकूलित करने के लिए {{पायथन, SQL, Excel और Power BI का उपयोग करके}} कार्रवाई योग्य जानकारी निकाल रहा/रही हूँ।"
                         },
-                        "fr": {
-                            "title": "Déménagement en {{Californie!}}",
-                            "province": "Ontario",
-                            "country": "Canada",
+                        "ben": {
+                            "title": "{{ডেটা অ্যানালিস্ট প্রকল্প}} নিয়ে কাজ করা",
+                            "country": "ভারত",
                             "institution": "",
-                            "text": "Je viens de déménager en Californie, aux États-Unis, pour explorer de nouvelles opportunités, tant professionnelles que personnelles. J'ai hâte de découvrir ce que cet État dynamique a à offrir et de relever tous les défis et expériences qui accompagnent ce nouveau chapitre de ma vie. Excité pour ce qui m'attend ! Restez à l'écoute pour des mises à jour sur mon parcours et les aventures qui m'attendent dans l'État d'Or !"
-                        },
-                        "ko": {
-                            "title": "{{캘리포니아로 이사!}}",
-                            "province": "온타리오",
-                            "country": "캐나다",
-                            "institution": "",
-                            "text": "최근에 미국 캘리포니아로 이사하여 새로운 직업적, 개인적 기회를 탐색하고 있습니다. 이 활기찬 주가 제공하는 것들을 발견하고, 이 새로운 장에서 오는 모든 도전과 경험을 받아들이는 것이 기대됩니다. 앞으로의 여정과 황금 주에서 기다리는 모험에 대한 업데이트를 기대해 주세요!"
+                            "text": "ডেটা পরিষ্কারকরণ, বিশ্লেষণ এবং ভিজ্যুয়ালাইজেশনের সাথে জড়িত বিভিন্ন ডেটা অ্যানালিস্ট প্রকল্পে কাজ করা, {{পাইথন, এসকিউএল, এক্সেল এবং পাওয়ার বিআই ব্যবহার করে}} কার্যকর অন্তর্দৃষ্টি বের করা যাতে তথ্যবহুল সিদ্ধান্ত গ্রহণে সহায়তা করা যায় এবং ব্যবসায়িক কর্মক্ষমতা অপ্টিমাইজ করা যায়।"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "date": {"year": 2023, "month": 6},
+                    "date": {"year": 2025, "month": 7},
                     "preview": {
-                        "links": [{
-                            "href": "https://www.youtube.com/@jomakaze",
-                            "tooltipString": "open_website",
-                            "faIcon": "fa-solid fa-eye"
-                        }],
+                        "links": [
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
                         "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=2nMZuWdX9Zw&t=7539s"
                     },
                     "locales": {
                         "en": {
-                            "title": "Started my own {{Youtube Channel!}}",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "",
-                            "text": "I’m thrilled to announce the launch of my own YouTube channel! 🎥✨ Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
+                            "title": "Learning advanced {{DAX Formulas}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Currently learning Advanced DAX formulas in Power BI under the guidance of Satish Dhawale Sir. This training is helping me strengthen my skills in creating complex measures, improving data modeling, and performing advanced analytics to extract meaningful business insights and make data-driven decisions more effectively."
                         },
-                        "es": {
-                            "title": "¡Comencé mi propio {{Canal de YouTube!}}",
-                            "province": "California",
-                            "country": "EE.UU.",
-                            "institution": "",
-                            "text": "¡Estoy emocionado de anunciar el lanzamiento de mi propio canal de YouTube! 🎥✨ Únete a mí en este emocionante viaje mientras comparto mi pasión por la tecnología, la programación y todo lo digital. Desde tutoriales y consejos hasta presentaciones de proyectos, no puedo esperar para conectar con todos ustedes a través de esta plataforma. No olvides suscribirte y activar la campana de notificaciones para estar al tanto de mis últimos videos. ¡Embarquémonos juntos en esta aventura!"
+                        "hi": {
+                            "title": "उन्नत {{DAX फ़ॉर्मूले}} सीख रहा हूँ",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "SkillCourse",
+                            "text": "वर्तमान में सतीश धावले सर के मार्गदर्शन में Power BI में उन्नत DAX फ़ॉर्मूले सीख रहा हूँ। यह प्रशिक्षण मुझे जटिल माप बनाने, डेटा मॉडलिंग में सुधार करने, और सार्थक व्यावसायिक अंतर्दृष्टि प्राप्त करने तथा डेटा-संचालित निर्णय अधिक प्रभावी ढंग से लेने के लिए उन्नत विश्लेषण करने में अपने कौशल को मज़बूत करने में मदद कर रहा है।"
                         },
-                        "fr": {
-                            "title": "Lancement de ma propre {{Chaîne YouTube!}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "",
-                            "text": "Je suis ravi d'annoncer le lancement de ma propre chaîne YouTube ! 🎥✨ Rejoignez-moi dans cette aventure passionnante où je partagerai ma passion pour la technologie, la programmation et tout ce qui est numérique. Des tutoriels et astuces aux présentations de projets, j'ai hâte de me connecter avec vous tous à travers cette plateforme. N'oubliez pas de vous abonner et d'activer la cloche de notification pour rester informé de mes dernières vidéos. Embarquons ensemble dans cette aventure !"
-                        },
-                        "ko": {
-                            "title": "{{유튜브 채널!}} 시작",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "",
-                            "text": "저의 유튜브 채널을 시작하게 되어 매우 기쁩니다! 🎥✨ 기술, 코딩, 디지털 관련 모든 것에 대한 열정을 공유하는 이 흥미진진한 여정에 여러분을 초대합니다. 튜토리얼과 팁부터 프로젝트 소개까지, 이 플랫폼을 통해 여러분과 소통할 수 있기를 기대합니다. 구독하고 알림 벨을 눌러 최신 동영상을 받아보세요. 함께 이 모험을 시작해 봅시다!"
+                        "ben": {
+                            "title": "উন্নত {{DAX সূত্র}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "স্কিলকোর্স",
+                            "text": "বর্তমানে সতীশ ধাওয়ালে স্যারের নির্দেশনায় পাওয়ার BI তে উন্নত DAX সূত্র শেখা হচ্ছে। এই প্রশিক্ষণ আমাকে জটিল পরিমাপ তৈরি, ডেটা মডেলিং উন্নত করা এবং অর্থপূর্ণ ব্যবসায়িক অন্তর্দৃষ্টি বের করার জন্য উন্নত বিশ্লেষণ সম্পাদনের দক্ষতা বৃদ্ধি করতে এবং ডেটা-চালিত সিদ্ধান্তগুলি আরও কার্যকরভাবে নিতে সাহায্য করছে।"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "date": {"year": 2024, "month": 12},
-                    "preview": {
+                    "date": {"year": 2025, "month": 1},
+                     "preview": {
                         "links": [
-                            {"href": "https://medium.com", "tooltipString": "open_website", "faIcon": "fa-brands fa-medium"}
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
                         ],
                         "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=8IuqFU5gw1E&t=28664s"
                     },
                     "locales": {
                         "en": {
-                            "title": "Working on a new {{mobile project!}}",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "",
-                            "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
-                            "list": [
-                                "Cross-platform compatibility with iOS and Android",
-                                "User-friendly interface with intuitive navigation",
-                                "Integration with popular APIs for enhanced functionality",
-                                "Real-time data synchronization for seamless user experience"
-                            ]
+                            "title": "Learning advanced {{sql queries}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning {{advanced SQL queries}} to efficiently manipulate, analyze, and retrieve complex datasets, mastering joins, subqueries, window functions, and optimization techniques to enhance data analysis, reporting, and decision-making capabilities."
                         },
-                        "es": {
-                            "title": "Trabajando en un nuevo {{proyecto móvil!}}",
-                            "province": "California",
-                            "country": "EE.UU.",
-                            "institution": "",
-                            "text": "Estoy emocionado de compartir que actualmente estoy trabajando en un nuevo proyecto móvil! Algunas características de este proyecto incluyen:",
-                            "list": [
-                                "Compatibilidad multiplataforma con iOS y Android",
-                                "Interfaz amigable con navegación intuitiva",
-                                "Integración con APIs populares para funcionalidad mejorada",
-                                "Sincronización de datos en tiempo real para una experiencia de usuario fluida"
-                            ]
+                        "hi": {
+                            "title": "उन्नत {{sql क्वेरीज़}} सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "जटिल डेटासेट को कुशलतापूर्वक संचालित, विश्लेषण और पुनर्प्राप्त करने के लिए {{उन्नत SQL क्वेरीज़}} सीखना, जॉइन, सबक्वेरीज़, विंडो फ़ंक्शन और ऑप्टिमाइज़ेशन तकनीकों में महारत हासिल करना ताकि डेटा विश्लेषण, रिपोर्टिंग और निर्णय लेने की क्षमता को बढ़ाया जा सके।"
                         },
-                        "fr": {
-                            "title": "Travail sur un nouveau {{projet mobile!}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "",
-                            "text": "Je suis ravi de partager que je travaille actuellement sur un nouveau projet mobile ! Certaines fonctionnalités de ce projet incluent :",
-                            "list": [
-                                "Compatibilité multiplateforme avec iOS et Android",
-                                "Interface conviviale avec une navigation intuitive",
-                                "Intégration avec des API populaires pour une fonctionnalité améliorée",
-                                "Synchronisation des données en temps réel pour une expérience utilisateur fluide"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{모바일 프로젝트!}} 작업 중",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "",
-                            "text": "현재 새로운 모바일 프로젝트를 작업 중입니다! 이 프로젝트의 몇 가지 기능은 다음과 같습니다:",
-                            "list": [
-                                "iOS 및 Android와의 크로스 플랫폼 호환성",
-                                "직관적인 탐색을 갖춘 사용자 친화적인 인터페이스",
-                                "기능 향상을 위한 인기 API 통합",
-                                "원활한 사용자 경험을 위한 실시간 데이터 동기화"
-                            ]
+                        "ben": {
+                            "title": "উন্নত {{sql queries}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "SkillCourse",
+                            "text": "জটিল ডেটাসেটগুলি দক্ষতার সাথে পরিচালনা, বিশ্লেষণ এবং পুনরুদ্ধার করার জন্য {{advanced SQL queries}} শেখা, ডেটা বিশ্লেষণ, রিপোর্টিং এবং সিদ্ধান্ত গ্রহণের ক্ষমতা বাড়ানোর জন্য জয়েন, সাবকোয়েরি, উইন্ডো ফাংশন এবং অপ্টিমাইজেশন কৌশলগুলি আয়ত্ত করা।"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "date": {"year": 2025, "month": 3},
+                    "date": {"year": 2024, "month": 4},
                     "preview": {
-                        "links": [],
+                        "links": [
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
                         "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=KdC5R7oPCAI&t=20518s"
                     },
                     "locales": {
                         "en": {
-                            "title": "Attending the {{Tech Conference 2025!}}",
-                            "province": "Tokyo",
-                            "country": "Japan",
-                            "institution": "Tech Innovators Inc.",
-                            "text": "I’m thrilled to announce that I’ll be attending the [[Tech Conference 2025]] in Tokyo, Japan! This event is a fantastic opportunity to connect with industry leaders, learn about the latest trends in technology, and share insights with fellow tech enthusiasts. I’m looking forward to engaging in discussions, attending workshops, and exploring innovative solutions that are shaping the future of our industry. If you’re attending the conference, let’s connect! I’d love to meet fellow developers and tech lovers. Stay tuned for updates and highlights from the event!"
+                            "title": "Learning {{Power BI}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning Power BI to create interactive dashboards, insightful visualizations, and data-driven reports, {{mastering DAX, data modeling}}, and transformation to analyze trends, monitor performance, and support effective business decision-making."
                         },
-                        "es": {
-                            "title": "Asistiendo a la {{Conferencia de Tecnología 2025!}}",
-                            "province": "Tokio",
-                            "country": "Japón",
-                            "institution": "Tech Innovators Inc.",
-                            "text": "¡Estoy emocionado de anunciar que asistiré a la [[Conferencia de Tecnología 2025]] en Tokio, Japón! Este evento es una oportunidad fantástica para conectar con líderes de la industria, aprender sobre las últimas tendencias en tecnología y compartir ideas con otros entusiastas de la tecnología. Estoy deseando participar en discusiones, asistir a talleres y explorar soluciones innovadoras que están dando forma al futuro de nuestra industria. Si vas a asistir a la conferencia, ¡conectemos! Me encantaría conocer a otros desarrolladores y amantes de la tecnología. ¡Mantente atento a las actualizaciones y momentos destacados del evento!"
+                        "hi": {
+                            "title": "पावर BI सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "इंटरैक्टिव डैशबोर्ड, व्यावहारिक विज़ुअलाइज़ेशन और डेटा-संचालित रिपोर्ट बनाने, {{DAX में महारत हासिल करना, डेटा मॉडलिंग}}, और रुझानों का विश्लेषण करने, प्रदर्शन की निगरानी करने और प्रभावी व्यावसायिक निर्णय लेने में सहायता के लिए रूपांतरण हेतु पावर BI सीखना।"
                         },
-                        "fr": {
-                            "title": "Participation à la {{Conférence Tech 2025!}}",
-                            "province": "Tokyo",
-                            "country": "Japon",
-                            "institution": "Tech Innovators Inc.",
-                            "text": "Je suis ravi d’annoncer que je participerai à la [[Tech Conference 2025]] à Tokyo, au Japon ! Cet événement est une occasion formidable de rencontrer des leaders du secteur, de découvrir les dernières tendances technologiques et d’échanger avec d’autres passionnés de tech. J’ai hâte de participer aux discussions, d’assister aux ateliers et d’explorer des solutions innovantes qui façonnent l’avenir de notre industrie. Si vous assistez à la conférence, n’hésitez pas à me contacter ! Ce serait un plaisir de rencontrer d’autres développeurs et amateurs de technologie. Restez connectés pour des mises à jour et des moments forts de l’événement !"
-                        },
-                        "ko": {
-                            "title": "{{기술 컨퍼런스 2025!}} 참석",
-                            "province": "도쿄",
-                            "country": "일본",
-                            "institution": "Tech Innovators Inc.",
-                            "text": "[[2025년 도쿄에서 열리는]] 기술 컨퍼런스에 참석하게 되어 매우 기쁩니다! 이 행사는 업계 리더들과 연결하고 최신 기술 트렌드를 배우며, 다른 기술 애호가들과 통찰력을 공유할 수 있는 환상적인 기회입니다. 토론에 참여하고, 워크숍에 참석하며, 우리 산업의 미래를 형성하는 혁신적인 솔루션을 탐색할 수 있기를 기대합니다. 컨퍼런스에 참석하신다면, 함께 연결해요! 다른 개발자와 기술 애호가들을 만나고 싶습니다. 행사에서의 업데이트와 하이라이트를 기대해 주세요!"
+                        "ben": {
+                            "title": "{{পাওয়ার বিআই} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "SkillCourse",
+                            "text": "পাওয়ার বিআই শেখা ইন্টারেক্টিভ ড্যাশবোর্ড, অন্তর্দৃষ্টিপূর্ণ ভিজ্যুয়ালাইজেশন এবং ডেটা-চালিত প্রতিবেদন তৈরি করবে, {{DAX, ডেটা মডেলিং আয়ত্ত করবে}}, এবং ট্রেন্ড বিশ্লেষণ, কর্মক্ষমতা পর্যবেক্ষণ এবং কার্যকর ব্যবসায়িক সিদ্ধান্ত গ্রহণে সহায়তা করার জন্য রূপান্তর করবে।"
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "date": {"year": 2025, "month": 6},
+                    "date": {"year": 2025, "month": 3},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                           {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
                         ],
                         "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=XbyiTh-6k9Q&t=7538s"
                     },
                     "locales": {
                         "en": {
-                            "title": "Launched my {{personal website!}}",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "",
-                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
-                            "list": [
-                                "Portfolio showcasing my projects and contributions",
-                                "Blog with articles on technology, coding, and personal experiences",
-                                "Contact form for inquiries and collaborations",
-                                "Links to my social media profiles and GitHub"
-                            ]
+                            "title": "Learning {{advanced Excel}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning advanced Excel skills, {{including pivot tables, complex formulas}}, data analysis tools, and automation with macros, to efficiently manage, analyze, and visualize data for improved accuracy, productivity, and decision-making."
                         },
-                        "es": {
-                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
-                            "province": "California",
-                            "country": "EE.UU.",
-                            "institution": "",
-                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
-                            "list": [
-                                "Portafolio que muestra mis proyectos y contribuciones",
-                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
-                                "Formulario de contacto para consultas y colaboraciones",
-                                "Enlaces a mis perfiles en redes sociales y GitHub"
-                            ]
+                        "hi": {
+                            "title": "उन्नत एक्सेल सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "उन्नत एक्सेल कौशल सीखना, {{पिवट टेबल, जटिल सूत्र सहित}}, डेटा विश्लेषण उपकरण, और मैक्रोज़ के साथ स्वचालन, ताकि बेहतर सटीकता, उत्पादकता और निर्णय लेने के लिए डेटा का कुशलतापूर्वक प्रबंधन, विश्लेषण और विज़ुअलाइज़ेशन किया जा सके।"
                         },
-                        "fr": {
-                            "title": "Lancement de mon {{site web personnel!}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "",
-                            "text": "Je suis ravi d'annoncer le lancement de mon [[site web personnel]] ! 🎉 Cette plateforme est un espace où je peux partager mes projets, articles de blog et réflexions sur le monde de la technologie et du développement. C'est un travail de passion, et j'ai hâte que vous l'exploriez tous. Voici quelques points forts de ce que vous pouvez trouver sur le site :",
-                            "list": [
-                                "Portfolio présentant mes projets et contributions",
-                                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
-                                "Formulaire de contact pour les demandes et collaborations",
-                                "Liens vers mes profils sur les réseaux sociaux et GitHub"
-                            ]
+                        "ben": {
+                            "title": "{{অ্যাডভান্সড এক্সেল}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "স্কিলকোর্স",
+                            "text": "উন্নত নির্ভুলতা, উৎপাদনশীলতা এবং সিদ্ধান্ত গ্রহণের জন্য দক্ষতার সাথে ডেটা পরিচালনা, বিশ্লেষণ এবং কল্পনা করার জন্য উন্নত এক্সেল দক্ষতা শেখা, {{পিভট টেবিল, জটিল সূত্র সহ}}, ডেটা বিশ্লেষণ সরঞ্জাম এবং ম্যাক্রো সহ অটোমেশন।"
+                            }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {"year": 2024, "month": 10},
+                     "preview": {
+                        "links": [
+                            {"href": "https://premium.mysirg.com/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/@mysirgdotcom/playlists"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning {{python librarys}}",
+                            "province": "Bhopal",
+                            "country": "India",
+                            "institution": "MySirG.com",
+                            "text": "Learning Python libraries like {{Pandas, NumPy, Matplotlib, and Seaborn}} to handle data manipulation, numerical computations, and visualization, enabling efficient analysis, insightful reporting, and automation of data-related tasks for various projects."
                         },
-                        "ko": {
-                            "title": "{{개인 웹사이트!}} 출시",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "",
-                            "text": "개인 웹사이트를 출시하게 되어 매우 기쁩니다! 🎉 이 플랫폼은 제가 프로젝트, 블로그 게시물 및 기술과 개발 세계에 대한 통찰력을 공유할 수 있는 공간입니다. 사랑으로 만든 결과물이며, 여러분이 탐험하기를 기대합니다. 사이트에서 찾을 수 있는 몇 가지 하이라이트는 다음과 같습니다:",
-                            "list": [
-                                "프로젝트와 기여를 보여주는 포트폴리오",
-                                "기술, 코딩 및 개인 경험에 관한 블로그",
-                                "문의 및 협업을 위한 연락처 양식",
-                                "소셜 미디어 프로필 및 GitHub 링크"
-                            ]
+                        "hi": {
+                            "title": "{{python librarys}} सीखना",
+                            "province": "भोपाल",
+                            "country": "भारत",
+                            "institution": "MySirG.com",
+                            "text": "डेटा हेरफेर, संख्यात्मक गणना और विज़ुअलाइज़ेशन को संभालने के लिए {{Pandas, NumPy, Matplotlib, और Seaborn}} जैसी पायथन लाइब्रेरीज़ सीखना, जिससे विभिन्न परियोजनाओं के लिए डेटा-संबंधी कार्यों का कुशल विश्लेषण, व्यावहारिक रिपोर्टिंग और स्वचालन संभव हो सके।"
+                        },
+                        "ben": {
+                            "title": "{{পাইথন লাইব্রেরি}} শেখা",
+                            "province": "ভোপাল",
+                            "country": "ভারত",
+                            "institution": "MySirG.com",
+                            "text": "ডেটা ম্যানিপুলেশন, সংখ্যাসূচক গণনা এবং ভিজ্যুয়ালাইজেশন পরিচালনা করার জন্য {{Pandas, NumPy, Matplotlib, এবং Seaborn}} এর মতো পাইথন লাইব্রেরি শেখা, যা বিভিন্ন প্রকল্পের জন্য দক্ষ বিশ্লেষণ, অন্তর্দৃষ্টিপূর্ণ প্রতিবেদন এবং ডেটা-সম্পর্কিত কাজের স্বয়ংক্রিয়তা সক্ষম করে।"
                         }
                     }
                 }

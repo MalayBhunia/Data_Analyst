@@ -31,10 +31,10 @@
             "faIcon": "fa-solid fa-folder-open"
         },
         {
-            "id": "achievements",
+            "id": "freelancing",
             "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
+            "jsonPath": "/data/sections/freelancing.json",
+            "faIcon": "fa-solid fa-laptop-code"
         },
         {
             "id": "updates",

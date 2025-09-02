@@ -1,57 +1,52 @@
 {
-    "name": "Mark Choi",
-
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "name": "Malay Bhunia",
+    "profilePictureUrl": "images/svg/profile-picture.jpg",
+    "resumePdfUrl": "images/svg/Malay_Bhunia_CV.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",
-
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "localized_name": "Malay Bhunia",
+            "localized_name_stylized": "<strong>Malay {{Bhunia}}</strong>",
+            "status_message_available_for_freelance": "Available for hire!",
             "roles": [
+                "B.Tech CSE Student",
+                "A Data Analyst",
                 "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Frontend Developer"
+
             ],
-            "name_pronunciation_ipa": "/mark chwe/",
-            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+            "name_pronunciation_ipa": "Welcome to my Portfolio",
+            "name_pronunciation_audio_url": "audio/MB1_audio.mp3"
         },
-        "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
+        "hi": {
+            "localized_name": "Malay Bhunia",
+            "localized_name_stylized": "<strong>मलय {{भुंइया}}</strong>",
+            "status_message_available_for_freelance": "किराये पर उपलब्ध!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
-            ]
-        },
-        "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
-            "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
-            ]
-        },
-        "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
-            "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
+                "बी.टेक सीएसई छात्र",
+                "डेटा विश्लेषक",
+                "बैकएंड डेवलपर",
+                "अग्रणी डेवलपर"
             ],
-            "name_pronunciation_ipa": "/chwe min-seok/",
-            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+            "name_pronunciation_ipa": "मेरे पोर्टफोलियो में आपका स्वागत है",
+            "name_pronunciation_audio_url": "audio/MB1_audio.mp3"
+        },
+        "ben": {
+            "localized_name": "Malay Bhunia",
+            "localized_name_stylized": "<strong>মলয় {{ভূনিয়া}}</strong>",
+            "status_message_available_for_freelance": "ভাড়ার জন্য উপলব্ধ!",
+            "roles": [
+                "বি.টেক সিএসই স্টুডেন্ট",
+                "ডেটা অ্যানালিস্ট",
+                "ব্যাকএন্ড ডেভেলপার",
+                "ফ্রন্টএন্ড ডেভেলপার"
+
+            ],
+            "name_pronunciation_ipa": "আমার পোর্টফোলিওতে স্বাগতম",
+            "name_pronunciation_audio_url": "audio/MB1_audio.mp3"
         }
     }
 }
