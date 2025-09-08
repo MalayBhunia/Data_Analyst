@@ -1,0 +1,88 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "1.3.0"
+    },
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "<b style='margin-left:2px'>I'm</b> Malay Bhunia",
+        "subtitle": "<h7 style='margin-left:-25px'>A Data Analyst</h7>",
+        "logoOffset": {
+            "right": 13,
+            "top": -4,
+            "bottom": -3
+        }
+    },
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": true
+    },
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        },
+        {
+            "name": "Hindi",
+            "id": "hi",
+            "flagUrl": "images/flags/in.png"
+        },
+        {
+            "name": "Bengali",
+            "id": "ben",
+            "flagUrl": "images/flags/in.png"
+        }
+    ],
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Theme"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-snowflake",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Theme"}
+            }
+        },
+        {
+            "id": "midnight",
+            "icon": "fa-solid fa-meteor",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Midnight Theme"}
+            }
+        }
+    ],
+    "consoleMessageForDevelopers": {
+        "title": "🖥️ Hey there, fellow Data analyst!",
+        "items": [
+            {
+                "description": "This is an Personal template based on the React framework.",
+                "list": [],
+                "listStyle": "none"
+            },
+            {
+                "description": "Like what you see? Let's connect!",
+                "list": [
+                    "GitHub: https://github.com/MalayBhunia",
+                    "Website: https://malay-pf-2.vercel.app/"
+                ],
+                "listStyle": "bulleted"
+            }
+        ]
+    },
+    "imagesToCache": []
+}

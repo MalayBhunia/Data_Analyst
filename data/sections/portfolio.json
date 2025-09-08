@@ -1,0 +1,402 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "hi": {
+                "title_short": "पोर्टफोलियो",
+                "title_short_nav": "पोर्टफोलियो",
+                "title_long_prefix": "एक नज़र डालें",
+                "title_long": "मेरा {{पोर्टफोलियो}}"
+            },
+            "ben": {
+                "title_short": "পোর্টফোলিও",
+                "title_short_nav": "পোর্টফোলিও",
+                "title_long_prefix": "একবার দেখে নাও",
+                "title_long": "আমার {{পোর্টফোলিও}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_data": "Data Analyst",
+                    "category_frontend": "Frontend",
+                    "category_backend": "Backend"
+                },
+                "hi": {
+                    "category_all": "सभी",
+                    "category_data": "डेटा विश्लेषक",
+                    "category_frontend": "फ्रंटेंड",
+                    "category_backend": "बैकेंड"
+                },
+                "ben": {
+                    "category_all": "সকল",
+                    "category_data": "ডেটা বিশ্লেষক",
+                    "category_frontend": "ফ্রন্টএন্ড",
+                    "category_backend": "ব্যাকএন্ড"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_data", "category_frontend", "category_backend"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_data",
+                    "img": "images/svg/dashboard.webp",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_powerbi-dataanalytics-dashboard-activity-7362504558641668096-AqDb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/svg/dashboard_screenshot.png"
+                        ],
+                        "screenshotsAspectRatio": "16:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": " Mobile Sales Data Dashboard",
+                            "text": "I recently built a [[Mobile Sales Data Dashboard]] using microsoft power BI that highlights sales performance, trends, and insights in an interactive way.",
+                            "tags": ["Power BI", "KPIs", "Power Query","DAX formula"]
+                        },
+                        "hi": {
+                            "title": " मोबाइल बिक्री डेटा डैशबोर्ड",
+                            "text": "मैंने हाल ही में Microsoft Power BI का उपयोग करके एक [[मोबाइल बिक्री डेटा डैशबोर्ड]] बनाया है जो बिक्री प्रदर्शन, रुझानों और जानकारियों को इंटरैक्टिव तरीके से हाइलाइट करता है।",
+                            "tags": ["पावर बीआई", "के.पी.आई", "शक्ति प्रश्न","DAX फ़ॉर्मूला"]
+                        },
+                        "ben": {
+                            "title": " মোবাইল সেলস ডেটা ড্যাশবোর্ড ",
+                            "text": "আমি সম্প্রতি মাইক্রোসফ্ট পাওয়ার বিআই ব্যবহার করে একটি [[মোবাইল সেলস ডেটা ড্যাশবোর্ড]] তৈরি করেছি যা ইন্টারেক্টিভ উপায়ে বিক্রয় কর্মক্ষমতা, প্রবণতা এবং অন্তর্দৃষ্টি তুলে ধরে।",
+                            "tags": ["পাওয়ার বিআই", "কেপিআই", "পাওয়ার প্রশ্ন","ড্যাক্স সূত্র"]
+                        }
+                        
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "categoryId": "category_data",
+                    "img": "images/svg/biryani.png",
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia/Zomato-Dashboard", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"},
+                            {"href": "", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"}
+                        ],
+                        "screenshots": [
+                            "images/svg/zomato.png",
+                            "images/svg/User-Performance.png",
+                            "images/svg/City-Performance.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Zomato Sales Data Dashboard",
+                            "text": "This Power BI Zomato dashboard analyzes city performance, user behavior, and sales trends, providing insights into sales amount, active users, ratings, food category preferences, and demographics to track business growth effectively.",
+                            "tags": ["Power BI", "148541 data","Power Query","DAX formula"]
+                        },
+                        "hi": {
+                            "title": "ज़ोमैटो सेल्स डेटा डैशबोर्ड",
+                            "text": "यह पावर BI ज़ोमैटो डैशबोर्ड शहर के प्रदर्शन, उपयोगकर्ता व्यवहार और बिक्री रुझानों का विश्लेषण करता है, और बिक्री राशि, सक्रिय उपयोगकर्ताओं, रेटिंग, खाद्य श्रेणी की प्राथमिकताओं और जनसांख्यिकी के बारे में जानकारी प्रदान करता है ताकि व्यावसायिक विकास को प्रभावी ढंग से ट्रैक किया जा सके।",
+                            "tags": ["पावर BI", "148541 डेटा","शक्ति प्रश्न","DAX फ़ॉर्मूला"]
+                        },
+                        "ben": {
+                            "title": "জোমাটো বিক্রয় ডেটা ড্যাশবোর্ড",
+                            "text": "এই Power BI Zomato ড্যাশবোর্ডটি শহরের কর্মক্ষমতা, ব্যবহারকারীর আচরণ এবং বিক্রয় প্রবণতা বিশ্লেষণ করে, বিক্রয়ের পরিমাণ, সক্রিয় ব্যবহারকারী, রেটিং, খাদ্য বিভাগের পছন্দ এবং জনসংখ্যাতাত্ত্বিক তথ্য সম্পর্কে অন্তর্দৃষ্টি প্রদান করে যাতে ব্যবসার বৃদ্ধি কার্যকরভাবে ট্র্যাক করা যায়।",
+                            "tags": ["পাওয়ার বিআই", "১৪৮৫৪১ ডেটা","পাওয়ার প্রশ্ন","ড্যাক্স সূত্র"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "categoryId": "category_data",
+                    "img": "images/svg/weather_logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_powerbi-weatheranalytics-datavisualization-activity-7363618054485766146-irKW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/svg/weather.png"
+                        ],
+                        "screenshotsAspectRatio": "16:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Weather Analytics Dashboard",
+                            "text": "This real-time weather dashboard in Power BI tracks live temperature, air quality, rainfall probability, and forecast trends for Kolkata and nearby cities. It provides a complete view of current conditions, future predictions, and environmental health insights.",
+                            "tags": ["Real-time Weather Conditions","AQI tracking"]
+                        },
+                        "hi": {
+                            "title": "मौसम विश्लेषण डैशबोर्ड",
+                            "text": "पावर BI में यह रीयल-टाइम मौसम डैशबोर्ड कोलकाता और आस-पास के शहरों के लिए लाइव तापमान, वायु गुणवत्ता, वर्षा की संभावना और पूर्वानुमान रुझानों को ट्रैक करता है। यह वर्तमान परिस्थितियों, भविष्य के पूर्वानुमानों और पर्यावरणीय स्वास्थ्य संबंधी जानकारी का संपूर्ण दृश्य प्रदान करता है।",
+                            "tags": ["रीयल-टाइम मौसम की स्थिति","AQI ट्रैकिंग"]
+                        },
+                        "ben": {
+                            "title": "আবহাওয়া বিশ্লেষণ ড্যাশবোর্ড",
+                            "text": "পাওয়ার বিআই-তে এই রিয়েল-টাইম আবহাওয়া ড্যাশবোর্ডটি কলকাতা এবং কাছাকাছি শহরগুলির জন্য লাইভ তাপমাত্রা, বায়ুর গুণমান, বৃষ্টিপাতের সম্ভাবনা এবং পূর্বাভাসের প্রবণতা ট্র্যাক করে। এটি বর্তমান পরিস্থিতি, ভবিষ্যতের ভবিষ্যদ্বাণী এবং পরিবেশগত স্বাস্থ্যের অন্তর্দৃষ্টি সম্পর্কে সম্পূর্ণ ধারণা প্রদান করে।",
+                            "tags": ["রিয়েল-টাইম আবহাওয়ার অবস্থা","একিউআই ট্র্যাকিং"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "categoryId": "category_data",
+                    "img": "images/svg/hostpital.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/svg/hospital_dash.png"
+                        ],
+                        "screenshotsAspectRatio": "16:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Hospital Emergency Room Dashboard",
+                            "text": "This Hospital Emergency Room Dashboard summarizes monthly patient insights, showing admissions, wait time, satisfaction, gender, age groups, attendance status, and department referrals to monitor ER efficiency and overall performance effectively.",
+                            "tags": ["MS Excel","Pivot table","Power Pivot"]
+                        },
+                        "hi": {
+                            "title": "अस्पताल आपातकालीन कक्ष डैशबोर्ड",
+                            "text": "यह अस्पताल आपातकालीन कक्ष डैशबोर्ड मासिक रोगी जानकारी का सारांश प्रस्तुत करता है, जिसमें भर्ती, प्रतीक्षा समय, संतुष्टि, लिंग, आयु वर्ग, उपस्थिति स्थिति और विभाग के रेफ़रल दर्शाए जाते हैं ताकि आपातकालीन कक्ष की दक्षता और समग्र प्रदर्शन पर प्रभावी ढंग से नज़र रखी जा सके।",
+                            "tags": ["एमएस एक्सेल","पिवट तालिका","पावर पिवट"]
+                        },
+                        "ben": {
+                            "title": "হাসপাতালের জরুরি কক্ষের ড্যাশবোর্ড",
+                            "text": "এই হাসপাতালের জরুরি কক্ষের ড্যাশবোর্ডে মাসিক রোগীর অন্তর্দৃষ্টির সারসংক্ষেপ তুলে ধরা হয়েছে, ভর্তি, অপেক্ষার সময়, সন্তুষ্টি, লিঙ্গ, বয়সের গ্রুপ, উপস্থিতির অবস্থা এবং বিভাগের রেফারেলগুলি দেখানো হয়েছে যাতে ER দক্ষতা এবং সামগ্রিক কর্মক্ষমতা কার্যকরভাবে পর্যবেক্ষণ করা যায়।",
+                            "tags": ["এমএস এক্সেল","পিভট টেবিল","পাওয়ার পিভট"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "categoryId": "category_frontend",
+                    "img": "images/svg/profile-picture.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-steam"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "My Personal Portfolio",
+                            "text": "A responsive and visually appealing personal portfolio showcasing my skills as an aspiring Data Analyst. Built using React, JavaScript, SCSS, and HTML, it highlights my projects, certifications, and expertise in data analysis, visualization, and problem-solving.",
+                            "tags": ["React", "JavaScript", "SCSS", "HTML"]
+                        },
+                        "hi": {
+                            "title": "मेरा व्यक्तिगत पोर्टफ़ोलियो",
+                            "text": "एक संवेदनशील और आकर्षक व्यक्तिगत पोर्टफ़ोलियो, जो एक महत्वाकांक्षी डेटा विश्लेषक के रूप में मेरे कौशल को दर्शाता है। रिएक्ट, जावास्क्रिप्ट, एससीएसएस और एचटीएमएल का उपयोग करके बनाया गया, यह डेटा विश्लेषण, विज़ुअलाइज़ेशन और समस्या-समाधान में मेरी परियोजनाओं, प्रमाणपत्रों और विशेषज्ञता को उजागर करता है।",
+                            "tags": ["React", "जावास्क्रिप्ट", "एससीएसएस", "एचटीएमएल"]
+                        },
+                        "ben": {
+                            "title": "আমার ব্যক্তিগত পোর্টফোলিও",
+                            "text": "একজন উচ্চাকাঙ্ক্ষী ডেটা বিশ্লেষক হিসেবে আমার দক্ষতা প্রদর্শনকারী একটি প্রতিক্রিয়াশীল এবং দৃষ্টিনন্দন ব্যক্তিগত পোর্টফোলিও। React, JavaScript, SCSS এবং HTML ব্যবহার করে তৈরি, এটি আমার প্রকল্প, সার্টিফিকেশন এবং ডেটা বিশ্লেষণ, ভিজ্যুয়ালাইজেশন এবং সমস্যা সমাধানে দক্ষতা তুলে ধরে।",
+                            "tags": ["React", "জাভাস্ক্রিপ্ট", "এসসিএসএস", "এইচটিএমএল"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 6,
+                    "categoryId": "category_frontend",
+                    "img": "images/svg/pf3.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://malay-pf-2.vercel.app/", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-steam"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "New Portfolio",
+                            "text": "Learning from my past portfolio, my second portfolio reflects growth, improved skills, and a refined approach to digital solutions, built using React.js, HTML, CSS, and JavaScript for a modern, responsive, and engaging experience.",
+                            "tags": ["React JS", "HTML", "CSS","JavaScript"]
+                        },
+                        "hi": {
+                            "title": "नया पोर्टफ़ोलियो",
+                            "text": "अपने पिछले पोर्टफ़ोलियो से सीखते हुए, मेरा दूसरा पोर्टफ़ोलियो विकास, बेहतर कौशल और डिजिटल समाधानों के प्रति एक परिष्कृत दृष्टिकोण को दर्शाता है, जिसे React.js, HTML, CSS और JavaScript का उपयोग करके एक आधुनिक, प्रतिक्रियाशील और आकर्षक अनुभव के लिए बनाया गया है।",
+                            "tags": ["React JS", "एचटीएमएल", "सीएसएस","जावास्क्रिप्ट"]
+                        },
+                        "ben": {
+                            "title": "নতুন পোর্টফোলিও",
+                            "text": "আমার পূর্ববর্তী পোর্টফোলিও থেকে শিক্ষা নিয়ে, আমার দ্বিতীয় পোর্টফোলিওটি বৃদ্ধি, উন্নত দক্ষতা এবং ডিজিটাল সমাধানের জন্য একটি পরিশীলিত পদ্ধতির প্রতিফলন ঘটায়, যা একটি আধুনিক, প্রতিক্রিয়াশীল এবং আকর্ষণীয় অভিজ্ঞতার জন্য React.js, HTML, CSS এবং JavaScript ব্যবহার করে তৈরি করা হয়েছে।",
+                            "tags": ["React JS", "এইচটিএমএল", "সিএসএস","জাভাস্ক্রিপ্ট"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 7,
+                    "categoryId": "category_frontend",
+                    "img": "images/svg/pf2.jpg",
+                    "faIcon": "f",
+                    "faIconColors": {"bg": "#7e4600", "bgLight": "", "fill": "#fefe99", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://malaybhunia.github.io/Portfolio1/", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-steam"}
+                        ],
+                        "screenshots": [ 
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Old Portfolio",
+                            "text": "A personal portfolio website built with HTML, CSS, and JavaScript to showcase projects, skills, and achievements. It features a responsive design, smooth navigation, and an engaging user interface for professional presentation.",
+                            "tags": ["HTML", "CSS","JavaScript"]
+                        },
+                        "hi": {
+                            "title": "पुराना पोर्टफ़ोलियो",
+                            "text": "प्रोजेक्ट, कौशल और उपलब्धियों को प्रदर्शित करने के लिए HTML, CSS और JavaScript का उपयोग करके बनाई गई एक व्यक्तिगत पोर्टफ़ोलियो वेबसाइट। इसमें पेशेवर प्रस्तुति के लिए एक रिस्पॉन्सिव डिज़ाइन, सहज नेविगेशन और आकर्षक यूज़र इंटरफ़ेस है।",
+                            "tags": ["एचटीएमएल", "सीएसएस","जावास्क्रिप्ट"]
+                        },
+                        "ben": {
+                            "title": "পুরাতন পোর্টফোলিও",
+                            "text": "প্রকল্প, দক্ষতা এবং অর্জনগুলি প্রদর্শনের জন্য HTML, CSS এবং JavaScript দিয়ে তৈরি একটি ব্যক্তিগত পোর্টফোলিও ওয়েবসাইট। এতে একটি প্রতিক্রিয়াশীল নকশা, মসৃণ নেভিগেশন এবং পেশাদার উপস্থাপনার জন্য একটি আকর্ষণীয় ইউজার ইন্টারফেস রয়েছে।",
+                            "tags": ["এইচটিএমএল", "সিএসএস","জাভাস্ক্রিপ্ট"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_backend",
+                    "img": "images/svg/aca.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "#4d784e", "bgLight": "", "fill": "#e1d798", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia/Academic-Results-System", "tooltipString": "play_now", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Academic Results System",
+                            "text": "Academic Results System is a [[Python and SQL-based application]] with six core functions: All Courses, Buy Course, Set Result, Show Result, Logout, and Exit. It streamlines course enrollment, result management, and student progress tracking.",
+                            "tags": ["Python", "Sqlite3","Tkinter"]
+                        },
+                        "hi": {
+                            "title": "शैक्षणिक परिणाम प्रणाली",
+                            "text": "शैक्षणिक परिणाम प्रणाली एक [[पायथन और SQL-आधारित अनुप्रयोग]] है जिसके छह मुख्य कार्य हैं: सभी पाठ्यक्रम, पाठ्यक्रम खरीदें, परिणाम सेट करें, परिणाम दिखाएँ, लॉगआउट करें और बाहर निकलें। यह पाठ्यक्रम नामांकन, परिणाम प्रबंधन और छात्र प्रगति ट्रैकिंग को सुव्यवस्थित करता है।",
+                            "tags": ["पायथन", "स्क्लाइट3", "टिंकर"]
+                        },
+                        "ben": {
+                            "title": "একাডেমিক ফলাফল সিস্টেম",
+                            "text": "একাডেমিক ফলাফল সিস্টেম হল একটি [[পাইথন এবং SQL-ভিত্তিক অ্যাপ্লিকেশন]] যার ছয়টি মূল ফাংশন রয়েছে: সমস্ত কোর্স, কোর্স কিনুন, ফলাফল সেট করুন, ফলাফল দেখান, লগআউট করুন এবং প্রস্থান করুন। এটি কোর্স তালিকাভুক্তি, ফলাফল ব্যবস্থাপনা এবং শিক্ষার্থীদের অগ্রগতি ট্র্যাকিংকে সুবিন্যস্ত করে।",
+                            "tags": ["পাইথন", "স্ক্লাইট৩", "টিকিন্টার"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_backend",
+                    "img": "images/svg/login.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia/User-Authentication-System", "tooltipString": "play_now", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "User Authentication System",
+                            "text": "The User Authentication System uses Python, SQL, and Tkinter to provide secure login and registration. It verifies credentials, stores encrypted passwords, and offers a user-friendly interface for efficient access control and data protection.",
+                            "tags": ["Python", "Sqlite3","Tkinter"]
+                        },
+                        "hi": {
+                            "title": "उपयोगकर्ता प्रमाणीकरण प्रणाली",
+                            "text": "उपयोगकर्ता प्रमाणीकरण प्रणाली सुरक्षित लॉगिन और पंजीकरण प्रदान करने के लिए पायथन, SQL और Tkinter का उपयोग करती है। यह क्रेडेंशियल सत्यापित करती है, एन्क्रिप्टेड पासवर्ड संग्रहीत करती है, और कुशल पहुँच नियंत्रण और डेटा सुरक्षा के लिए एक उपयोगकर्ता-अनुकूल इंटरफ़ेस प्रदान करती है।",
+                            "tags": ["पायथन", "स्क्लाइट3","टिंकर"]
+                        },
+                        "ben": {
+                            "title": "ব্যবহারকারী প্রমাণীকরণ সিস্টেম",
+                            "text": "ব্যবহারকারী প্রমাণীকরণ সিস্টেম নিরাপদ লগইন এবং নিবন্ধন প্রদানের জন্য পাইথন, SQL এবং Tkinter ব্যবহার করে। এটি শংসাপত্র যাচাই করে, এনক্রিপ্ট করা পাসওয়ার্ড সংরক্ষণ করে এবং দক্ষ অ্যাক্সেস নিয়ন্ত্রণ এবং ডেটা সুরক্ষার জন্য একটি ব্যবহারকারী-বান্ধব ইন্টারফেস প্রদান করে।",
+                            "tags": ["পাইথন", "স্ক্লাইট৩", "টিকিন্টার"]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_backend",
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "#5a79c8", "bgLight": "", "fill": "#eeeeee", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia/Smart_Calculator", "tooltipString": "play_now", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Smart Calculator",
+                            "text": "The Smart Calculator, built with Python, SpeechRecognition, and Pyttsx3, supports 35+ mathematical calculations. It takes voice commands, processes input, and provides spoken results, offering a hands-free and interactive computing experience.",
+                            "tags": ["Python", "Speech_recognition", "Pyttsx3"]
+                        },
+                        "hi": {
+                            "title": "स्मार्ट कैलकुलेटर",
+                            "text": "पाइथन, स्पीच_रिकग्निशन और पाइटक्स3 के साथ निर्मित स्मार्ट कैलकुलेटर, 35 से ज़्यादा गणितीय गणनाओं का समर्थन करता है। यह वॉइस कमांड लेता है, इनपुट प्रोसेस करता है और बोले गए परिणाम प्रदान करता है, जिससे एक हैंड्स-फ़्री और इंटरैक्टिव कंप्यूटिंग अनुभव मिलता है।",
+                            "tags": ["पाइथन", "स्पीच_रिकग्निशन", "पाइटक्स3"]
+                        },
+                        "ben": {
+                            "title": "স্মার্ট ক্যালকুলেটর",
+                            "text": "পাইথন, স্পিচরিকগনিশন এবং পাইটসএক্স৩ দিয়ে তৈরি স্মার্ট ক্যালকুলেটরটি ৩৫+ গাণিতিক গণনা সমর্থন করে। এটি ভয়েস কমান্ড গ্রহণ করে, ইনপুট প্রক্রিয়া করে এবং কথ্য ফলাফল প্রদান করে, যা হ্যান্ডস-ফ্রি এবং ইন্টারেক্টিভ কম্পিউটিং অভিজ্ঞতা প্রদান করে।",
+                            "tags": ["পাইথন", "স্পিচ_রিকগনিশন", "পাইটসএক্স৩"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

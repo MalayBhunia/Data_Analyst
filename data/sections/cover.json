@@ -1,0 +1,422 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Malay Bhunia}}"
+            },
+            "hi": {
+                "title_short": "आपका स्वागत है!",
+                "title_short_nav": "मेरे बारे में",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "मैं {{मलय भुनिया}} हूँ"
+            },
+            "ben": {
+                "title_short": "স্বাগতম!",
+                "title_short_nav": "আমার সম্পর্কে",
+                "title_long_prefix": "হ্যালো...",
+                "title_long": "আমি {{মলয় ভুনিয়া}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "West Bengal – India",
+                    "link": {"href": "https://maps.app.goo.gl/e95YkBWCUCDmxrDy7","tooltipString": "See_on_map"},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "mbhunia098@gmail.com",
+                    "link": {"href": "mailto:mbhunia098@gmail.com", "tooltipString": "Email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@MalayBhunia",
+                    "link": {"href": "https://github.com/MalayBhunia", "tooltipString": "See_on_Github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "hi": {"title": "थोड़ा बहुत मेरे बारे में..."},
+                "ben": {"title": "আমার সম্পর্কে {{কিছুটা}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/svg/dash.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a {{Data Analyst}} equipped with a solid foundation in statistics, data structures & programming languages like [[Python & SQL]]. Proficient in data analysis, data cleaning and visualization using tools such as [[Excel & Power BI]]. Demonstrated ability to extract insights from academic projects involving real-world datasets & predictive modeling using libraries like Pandas, NumPy & Matplotlib.</p><p>Strong problem-solving skills, attention to detail, and a keen interest in uncovering trends & patterns to support data-driven decision-making. Eager to contribute to a dynamic team and grow in the field of analytics.</p><p>I look forward to collaborating [[with you!]]</p>"
+                        },
+                        "hi": {
+                            "text": "<p>मैं एक {{डेटा विश्लेषक}} हूँ, जिसे सांख्यिकी, डेटा संरचनाओं और [[पायथन और SQL]] जैसी प्रोग्रामिंग भाषाओं का अच्छा ज्ञान है। [[एक्सेल और पावर BI]] जैसे टूल्स का उपयोग करके डेटा विश्लेषण, डेटा क्लीनिंग और विज़ुअलाइज़ेशन में दक्षता प्राप्त है। पांडा, न्यूमपी और मैटप्लॉटलिब जैसी लाइब्रेरी का उपयोग करके वास्तविक दुनिया के डेटासेट और पूर्वानुमानित मॉडलिंग से संबंधित शैक्षणिक परियोजनाओं से अंतर्दृष्टि निकालने की सिद्ध क्षमता।</p><p>मज़बूत समस्या-समाधान कौशल, बारीकियों पर ध्यान, और डेटा-आधारित निर्णय लेने में सहायता के लिए रुझानों और पैटर्न को उजागर करने में गहरी रुचि। एक गतिशील टीम में योगदान देने और एनालिटिक्स के क्षेत्र में आगे बढ़ने के लिए उत्सुक हूँ।</p><p>मैं [[आपके साथ]] सहयोग करने के लिए उत्सुक हूँ!</p>"
+                        },
+                        "ben": {
+                            "text": "<p>আমি একজন {{ডেটা অ্যানালিস্ট}}, পরিসংখ্যান, ডেটা স্ট্রাকচার এবং [[পাইথন এবং এসকিউএল]] এর মতো প্রোগ্রামিং ভাষার উপর আমার দৃঢ় ভিত্তি রয়েছে। [[এক্সেল এবং পাওয়ার বিআই]] এর মতো সরঞ্জাম ব্যবহার করে ডেটা বিশ্লেষণ, ডেটা পরিষ্কার এবং ভিজ্যুয়ালাইজেশনে দক্ষ। পান্ডাস, নুমপাই এবং ম্যাটপ্লটলিবের মতো লাইব্রেরি ব্যবহার করে বাস্তব-বিশ্বের ডেটাসেট এবং ভবিষ্যদ্বাণীমূলক মডেলিং জড়িত একাডেমিক প্রকল্পগুলি থেকে অন্তর্দৃষ্টি বের করার দক্ষতা প্রদর্শন করেছি।</p><p>সমস্যা সমাধানের শক্তিশালী দক্ষতা, বিশদে মনোযোগ এবং ডেটা-চালিত সিদ্ধান্ত গ্রহণকে সমর্থন করার জন্য প্রবণতা এবং প্যাটার্নগুলি উন্মোচনে গভীর আগ্রহ। একটি গতিশীল দলে অবদান রাখতে এবং বিশ্লেষণের ক্ষেত্রে বৃদ্ধি পেতে আগ্রহী।</p><p>আমি [[আপনার সাথে!]] সহযোগিতা করার জন্য উন্মুখ</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+           "id": 3,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {"title": "My {{Certifications}}"},
+                "hi": {"title": "मेरे {{प्रमाणपत्र}}"},
+                "ben": {"title": "আমার {{সার্টিফিকেশন}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "img": "images/svg/satish.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "date": {"year": 2025, "month": 8},
+                    "link": {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_sql-certificate-activity-7358437163153190912-UP4X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{SQL}} Micro Course",
+                            "text": "Achieved SQL certification from SkillCourse, demonstrating strong skills in database querying, management, and data analysis."
+                        },
+                        "hi": {
+                            "title": "{{SQL}} माइक्रो कोर्स",
+                            "text": "SkillCourse से SQL प्रमाणन प्राप्त किया, डेटाबेस क्वेरी, प्रबंधन और डेटा विश्लेषण में मज़बूत कौशल प्रदर्शित किया।"
+                        },
+                        "ben": {
+                            "title": "{{SQL}} মাইক্রো কোর্স",
+                            "text": "স্কিলকোর্স থেকে SQL সার্টিফিকেশন অর্জন, ডাটাবেস কোয়েরি, ব্যবস্থাপনা এবং ডেটা বিশ্লেষণে শক্তিশালী দক্ষতা প্রদর্শন।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/svg/sourabhsir.jpg",
+                    "date": {"year": 2024, "month": 6},
+                    "link": {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_c-cpp-dsa-activity-7293743294541406208-aTQc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{C, C++, DSA and STL}} Certificate",
+                            "text": "Earned C, C++, and DSA certification from MySirG.com, showcasing strong programming fundamentals and problem-solving skills."
+                        },
+                        "hi": {
+                            "title": "{{C, C++, DSA और STL}} प्रमाणपत्र",
+                            "text": "MySirG.com से C, C++, और DSA प्रमाणपत्र प्राप्त किया, जिसमें मज़बूत प्रोग्रामिंग बुनियादी बातों और समस्या-समाधान कौशल का प्रदर्शन किया गया है।"
+                        },
+                        "ben": {
+                            "title": "{{C, C++, DSA এবং STL}} সার্টিফিকেট",
+                            "text": "MySirG.com থেকে C, C++, এবং DSA সার্টিফিকেশন অর্জন করেছি, যা শক্তিশালী প্রোগ্রামিং মৌলিক বিষয় এবং সমস্যা সমাধানের দক্ষতা প্রদর্শন করে।"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "images/svg/satish.jpg",
+                    "date": {"year": 2025, "month": 8},
+                    "link": {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_power-bi-certificate-activity-7362858915073581056-K0i6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Power BI}} Certificate",
+                            "text": "Achieved Power BI certification from SkillCourse, demonstrating expertise in data visualization, reporting, and interactive dashboard creation."
+                        },
+                        "hi": {
+                            "title": "{{Power BI}} प्रमाणपत्र",
+                            "text": "SkillCourse से Power BI प्रमाणन प्राप्त किया, डेटा विज़ुअलाइज़ेशन, रिपोर्टिंग और इंटरैक्टिव डैशबोर्ड निर्माण में विशेषज्ञता प्रदर्शित की।"
+                        },
+                        "ben": {
+                            "title": "{{Power BI}} সার্টিফিকেট",
+                            "text": "স্কিলকোর্স থেকে পাওয়ার BI সার্টিফিকেশন অর্জন, ডেটা ভিজ্যুয়ালাইজেশন, রিপোর্টিং এবং ইন্টারেক্টিভ ড্যাশবোর্ড তৈরিতে দক্ষতা প্রদর্শন।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/svg/sourabhsir.jpg",
+                    "date": {"year": 2025, "month": 1},
+                    "link": {"href": "https://premium.mysirg.com/learn/certificate/9120296-173476", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Python}} for Beginners",
+                            "text": "Earned Python certification from MySirG.com, showcasing proficiency in programming, problem-solving, and real-world application development."
+                        },
+                        "hi": {
+                            "title": "{{Python}} for Beginners",
+                            "text": "MySirG.com से पायथन प्रमाणन प्राप्त किया, प्रोग्रामिंग, समस्या-समाधान और वास्तविक दुनिया के अनुप्रयोग विकास में दक्षता प्रदर्शित की।"
+                        },
+                        "ben": {
+                            "title": "{{Python}} for Beginners",
+                            "text": "MySirG.com থেকে পাইথন সার্টিফিকেশন অর্জন করেছেন, যা প্রোগ্রামিং, সমস্যা সমাধান এবং বাস্তব-বিশ্বের অ্যাপ্লিকেশন ডেভেলপমেন্টে দক্ষতা প্রদর্শন করে।"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Analysis",
+                            "text": "Passionate about uncovering insights through data-driven analysis."
+                        },
+                        "hi": {
+                            "title": "{{डेटा}} विश्लेषण",
+                            "text": "डेटा-संचालित विश्लेषण के माध्यम से अंतर्दृष्टि प्राप्त करने में रुचि."
+                        },
+                        "ben": {
+                            "title": "{{তথ্য}} বিশ্লেষণ",
+                            "text": "তথ্য-চালিত বিশ্লেষণের মাধ্যমে অন্তর্দৃষ্টি উন্মোচন করার ব্যাপারে আগ্রহী."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-cart-arrow-down",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Cleaning",
+                            "text": "Passionate about transforming messy data into meaningful insights."
+                        },
+                        "hi": {
+                            "title": "{{डेटा}} सफ़ाई",
+                            "text": "गड़बड़ डेटा को सार्थक जानकारी में बदलने का जुनून।"
+                        },
+                        "ben": {
+                            "title": "{{তথ্য}} পরিষ্কার করা",
+                            "text": "অগোছালো তথ্যকে অর্থপূর্ণ অন্তর্দৃষ্টিতে রূপান্তর করার ব্যাপারে আগ্রহী।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-simple",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Visualization",
+                            "text": "Passionate about telling stories through impactful data visuals."
+                        },
+                        "hi": {
+                            "title": "{{डेटा}} विज़ुअलाइज़ेशन",
+                            "text": "प्रभावशाली डेटा विज़ुअल्स के ज़रिए कहानियाँ बताने का जुनून।"
+                        },
+                        "ben": {
+                            "title": "{{তথ্য}} ভিজ্যুয়ালাইজেশন",
+                            "text": "প্রভাবশালী ডেটা ভিজ্যুয়ালের মাধ্যমে গল্প বলার প্রতি আগ্রহী।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-magnifying-glass-chart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Science",
+                            "text": "Passionate about turning complex data into impactful, actionable insights."
+                        },
+                        "hi": {
+                            "title": "{{डेटा}} विज्ञान",
+                            "text": "जटिल डेटा को प्रभावशाली, कार्यान्वयन योग्य अंतर्दृष्टि में बदलने का जुनून।"
+                        },
+                        "ben": {
+                            "title": "{{তথ্য}} বিজ্ঞান",
+                            "text": "জটিল তথ্যকে প্রভাবশালী, কার্যকর অন্তর্দৃষ্টিতে রূপান্তর করার ব্যাপারে আগ্রহী।"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Coding}}",
+                            "text": "Passionate about solving problems through creative coding solutions."
+                        },
+                        "hi": {
+                            "title": "{{कोडिंग}}",
+                            "text": "रचनात्मक कोडिंग समाधानों के माध्यम से समस्याओं को हल करने में रुचि।"
+                        },
+                        "ben": {
+                            "title": "{{কোডিং}}",
+                            "text": "সৃজনশীল কোডিং সমাধানের মাধ্যমে সমস্যা সমাধানের প্রতি আগ্রহী।"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Portfolio}} Design",
+                            "text": "Love crafting visually appealing, user-friendly, and impactful portfolio designs."
+                        },
+                        "hi": {
+                            "title": "{{पोर्टफोलियो}} डिज़ाइन",
+                            "text": "मुझे दिखने में आकर्षक, उपयोगकर्ता-अनुकूल और प्रभावशाली पोर्टफोलियो डिज़ाइन बनाना पसंद है।"
+                        },
+                        "ben": {
+                            "title": "{{Portfolio}} ডিজাইন",
+                            "text": "দৃশ্যত আকর্ষণীয়, ব্যবহারকারী-বান্ধব এবং প্রভাবশালী পোর্টফোলিও ডিজাইন তৈরি করতে ভালোবাসি।"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "{{Languages}} I speak"},
+                "hi": {"title": "{{भाषाएँ}} मैं बोलता हूँ"},
+                "ben": {"title": "{{ভাষা}} আমি কথা বলি"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
+                        },
+                        "hi": {
+                            "title": "अंग्रेज़ी",
+                            "text": "उत्कृष्ट संचार और लेखन कौशल वाला मूल वक्ता।",
+                            "level": "मूल निवासी"
+                        },
+                        "ben": {
+                            "title": "ইংরেজি",
+                            "text": "চমৎকার যোগাযোগ এবং লেখার দক্ষতা সম্পন্ন স্থানীয় বক্তা।",
+                            "level": "স্থানীয়"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/in.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "text": "Fluent speaker with strong listening and speaking skills.",
+                            "level": "Fluent"
+                        },
+                        "hi": {
+                            "title": "हिंदी",
+                            "text": "सुनने और बोलने में कुशल, धाराप्रवाह वक्ता।",
+                            "level": "धाराप्रवाह"
+                        },
+                        "ben": {
+                            "title": "হিন্দি",
+                            "text": "শ্রবণ ও কথা বলার দক্ষতাসম্পন্ন সাবলীল বক্তা।",
+                            "level": "সাবলীল"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/in.png",
+                    "faIcon": "",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "date": { "year": null, "month": null },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Bengali",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
+                        },
+                        "hi": {
+                            "title": "बंगाली",
+                            "text": "उत्कृष्ट संचार और लेखन कौशल वाला मूल वक्ता।",
+                            "level": "मूल निवासी"
+                        },
+                        "ben": {
+                            "title": "বাঙালি",
+                            "text": "চমৎকার যোগাযোগ এবং লেখার দক্ষতা সম্পন্ন স্থানীয় বক্তা।",
+                            "level": "স্থানীয়"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

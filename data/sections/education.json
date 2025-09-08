@@ -1,0 +1,401 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "hi": {
+                "title_short": "शिक्षा",
+                "title_short_nav": "शिक्षा",
+                "title_long_prefix": "यह मेरी",
+                "title_long": "{{शिक्षा}} पृष्ठभूमि"
+            },
+            "ben": {
+                "title_short": "শিক্ষা",
+                "title_short_nav": "শিক্ষা",
+                "title_long_prefix": "এটা আমার",
+                "title_long": "{{শিক্ষা}} পটভূমি"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_academic": "Academic",
+                    "category_courses": "Online Courses"
+                },
+                "hi": {
+                    "category_all": "सभी",
+                    "category_academic": "शैक्षणिक",
+                    "category_courses": "ऑनलाइन पाठ्यक्रम"
+                },
+                "ben": {
+                    "category_all": "সকল",
+                    "category_academic": "শিক্ষাগত",
+                    "category_courses": "অনলাইন কোর্স"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "categorize_by": ["category_academic", "category_courses"],
+                "max_rows_collapse_threshold": 9
+            },    
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId":"category_academic",
+                    "img": "images/flags/SVU.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2026, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "B.Tech in Computer Science and Engineering",
+                            "province": "",
+                            "country": "Kolkata",
+                            "institution": "Swami Vivekananda University",
+                            "text": "A B.Tech in Computer Science and Engineering student from Swami Vivekananda University, equipped with strong technical skills in programming, data structures, and algorithms. Passionate about problem-solving, software development, and emerging technologies, with a focus on building innovative solutions. Dedicated to continuous learning and applying knowledge to real-world challenges.",
+                            "list": [
+                                "Proficient in C, C++, Python and SQL.",
+                                "Skilled in data analysis and visualization tools.",
+                                "Interest in Data Analyst and Data science.",
+                                "Collaborative team player with good communication skills."
+                            ],
+                            "tags": ["Web Development", "Data Science", "Data Analyst", "Artificial Intelligence", "Machine Learning"]
+                        },
+                        "hi": {
+                            "title": "कंप्यूटर विज्ञान और इंजीनियरिंग में बी.टेक",
+                            "province": "",
+                            "country": "कोलकाता",
+                            "institution": "स्वामी विवेकानंद विश्वविद्यालय",
+                            "text": "स्वामी विवेकानंद विश्वविद्यालय से कंप्यूटर विज्ञान और इंजीनियरिंग में बी.टेक. का छात्र, प्रोग्रामिंग, डेटा संरचनाओं और एल्गोरिदम में मज़बूत तकनीकी कौशल से लैस। समस्या-समाधान, सॉफ़्टवेयर विकास और उभरती तकनीकों के प्रति जुनूनी, और नवीन समाधानों के निर्माण पर केंद्रित। निरंतर सीखने और वास्तविक दुनिया की चुनौतियों पर ज्ञान लागू करने के लिए समर्पित।",
+                            "list": [
+                                "C, C++, Python और SQL में कुशल।",
+                                "डेटा विश्लेषण और विज़ुअलाइज़ेशन टूल में कुशल।",
+                                "डेटा विश्लेषक और डेटा विज्ञान में रुचि।",
+                                "अच्छे संचार कौशल वाला सहयोगी टीम खिलाड़ी।"
+                            ],
+                            "tags": ["वेब डेवलपमेंट", "डेटा साइंस", "डेटा एनालिस्ट", "आर्टिफिशियल इंटेलिजेंस", "मशीन लर्निंग"]
+                        },
+                        "ben": {
+                            "title": "কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং-এ বি.টেক।",
+                            "province": "",
+                            "country": "কলকাতা",
+                            "institution": "স্বামী বিবেকানন্দ বিশ্ববিদ্যালয়",
+                            "text": "স্বামী বিবেকানন্দ বিশ্ববিদ্যালয়ের কম্পিউটার বিজ্ঞান ও প্রকৌশলে বি.টেক. শিক্ষার্থী, প্রোগ্রামিং, ডেটা স্ট্রাকচার এবং অ্যালগরিদমে শক্তিশালী প্রযুক্তিগত দক্ষতা সম্পন্ন। সমস্যা সমাধান, সফটওয়্যার উন্নয়ন এবং উদীয়মান প্রযুক্তি সম্পর্কে আগ্রহী, উদ্ভাবনী সমাধান তৈরির উপর মনোযোগ দিয়ে। বাস্তব-বিশ্বের চ্যালেঞ্জগুলিতে ক্রমাগত শেখা এবং জ্ঞান প্রয়োগের জন্য নিবেদিতপ্রাণ।",
+                            "list": [
+                                "C, C++, Python এবং SQL-এ দক্ষ।",
+                                "ডেটা বিশ্লেষণ এবং ভিজ্যুয়ালাইজেশন টুলে দক্ষ।",
+                                "ডেটা বিশ্লেষক এবং ডেটা বিজ্ঞানে আগ্রহ।",
+                                "ভালো যোগাযোগ দক্ষতা সহ সহযোগী দলের খেলোয়াড়।"
+                            ],
+                            "tags": ["ওয়েব ডেভেলপমেন্ট", "ডেটা সায়েন্স", "ডেটা অ্যানালিস্ট", "কৃত্রিম বুদ্ধিমত্তা", "মেশিন লার্নিং"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId":"category_academic",
+                    "img": "images/svg/tik.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2020, "month": 4},
+                    "dateEnd": {"year": 2022, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "Higher Secondary Education (WBCHSE)",
+                            "province": "",
+                            "country": "Purba Medinipur",
+                            "institution": "Tikrapara A. M. High School",
+                            "text": "Completed Higher Secondary Education from Tikrapara A.M. High School with a focus on science stream, building strong knowledge in physics, chemistry, and mathematics. Actively participated in academic and extracurricular activities, developing analytical thinking, communication skills, and discipline, which created a strong foundation for pursuing further studies in technology and engineering.",
+                            "tags": ["Computer Maintenance and Networking Assistance", "WPDV", "Mathematics", "Physics", "Chemistry"]
+                        },
+                        "hi": {
+                            "title": "उच्चतर माध्यमिक शिक्षा (WBCHSE)",
+                            "province": "",
+                            "country": "पूर्व मेदिनीपुर",
+                            "institution": "टिकरापारा ए.एम. हाई स्कूल",
+                            "text": "विज्ञान विषय पर ध्यान केंद्रित करते हुए टिकरापारा ए.एम. हाई स्कूल से उच्चतर माध्यमिक शिक्षा पूरी की, भौतिकी, रसायन विज्ञान और गणित में गहन ज्ञान अर्जित किया। शैक्षणिक और पाठ्येतर गतिविधियों में सक्रिय रूप से भाग लिया, विश्लेषणात्मक सोच, संचार कौशल और अनुशासन विकसित किया, जिसने प्रौद्योगिकी और इंजीनियरिंग में आगे की पढ़ाई के लिए एक मजबूत आधार तैयार किया।",
+                            "tags": ["कंप्यूटर रखरखाव और नेटवर्किंग सहायता", "WPDV", "गणित", "भौतिकी", "रसायन विज्ञान"]
+                        },
+                        "ben": {
+                            "title": "উচ্চমাধ্যমিক শিক্ষা (WBCHSE)",
+                            "province": "",
+                            "country": "পূর্ব মেদিনীপুর",
+                            "institution": "তিকরাপাড়া এ.এম. উচ্চ বিদ্যালয়",
+                            "text": "তিকরাপাড়া এ.এম. উচ্চ বিদ্যালয় থেকে বিজ্ঞান ধারার উপর মনোযোগ দিয়ে উচ্চমাধ্যমিক শিক্ষা সম্পন্ন করেছেন, পদার্থবিদ্যা, রসায়ন এবং গণিতে শক্তিশালী জ্ঞান তৈরি করেছেন। সক্রিয়ভাবে একাডেমিক এবং পাঠ্যক্রম বহির্ভূত কার্যকলাপে অংশগ্রহণ করেছেন, বিশ্লেষণাত্মক চিন্তাভাবনা, যোগাযোগ দক্ষতা এবং শৃঙ্খলা বিকাশ করেছেন, যা প্রযুক্তি এবং প্রকৌশলে আরও পড়াশোনা করার জন্য একটি শক্তিশালী ভিত্তি তৈরি করেছে।",
+                            "tags": ["কম্পিউটার রক্ষণাবেক্ষণ এবং নেটওয়ার্কিং সহায়তা", "WPDV", "গণিত", "পদার্থবিদ্যা", "রসায়ন"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId":"category_academic",
+                    "img": "images/svg/braja.webp",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "dateStart": {"year": 2015, "month": 1},
+                    "dateEnd": {"year": 2020, "month": 3},
+                    "locales": {
+                        "en": {
+                            "title": "Secondary Education (WBBSE)",
+                            "province": "",
+                            "country": "Purba Medinipur",
+                            "institution": "Brajakishorepur D. G. High School",
+                            "text": "Completed Secondary Education from Brajakishorpur D.G. High School with a strong academic record and active participation in extracurricular activities. Developed a solid foundation in mathematics, science, and language skills. Gained discipline, teamwork abilities, and problem-solving mindset, laying the groundwork for future academic and professional growth in the field of technology.",
+                            "tags": ["Bengali", "English", "Mathematics","History", "Geography", "Science"]
+                        },
+                        "hi": {
+                            "title": "माध्यमिक शिक्षा (WBBSE)",
+                            "province": "",
+                            "country": "पूर्व मेदिनीपुर",
+                            "institution": "ब्रजकिशोरपुर डी. जी. हाई स्कूल",
+                            "text": "ब्रजकिशोरपुर डी. जी. हाई स्कूल से माध्यमिक शिक्षा एक मज़बूत शैक्षणिक रिकॉर्ड और पाठ्येतर गतिविधियों में सक्रिय भागीदारी के साथ पूरी की। गणित, विज्ञान और भाषा कौशल में एक मज़बूत आधार विकसित किया। अनुशासन, टीमवर्क क्षमता और समस्या-समाधान की मानसिकता हासिल की, जिससे प्रौद्योगिकी के क्षेत्र में भविष्य के शैक्षणिक और व्यावसायिक विकास की नींव रखी।",
+                            "tags": ["बंगाली", "अंग्रेज़ी", "गणित","इतिहास", "भूगोल", "विज्ञान"]
+                        },
+                        "ben": {
+                            "title": "মাধ্যমিক শিক্ষা (WBBSE)",
+                            "province": "",
+                            "country": "পূর্ব মেদিনীপুর",
+                            "institution": "ব্রজকিশোরপুর ডি.জি. উচ্চ বিদ্যালয়",
+                            "text": "একটি শক্তিশালী একাডেমিক রেকর্ড এবং পাঠ্যক্রম বহির্ভূত কার্যকলাপে সক্রিয় অংশগ্রহণের মাধ্যমে ব্রজকিশোরপুর ডি.জি. উচ্চ বিদ্যালয় থেকে মাধ্যমিক শিক্ষা সম্পন্ন করেছেন। গণিত, বিজ্ঞান এবং ভাষা দক্ষতায় একটি শক্ত ভিত্তি তৈরি করেছেন। শৃঙ্খলা, দলবদ্ধ দক্ষতা এবং সমস্যা সমাধানের মানসিকতা অর্জন করেছেন, যা প্রযুক্তির ক্ষেত্রে ভবিষ্যতের একাডেমিক এবং পেশাদার বিকাশের ভিত্তি স্থাপন করেছে।",
+                            "tags":  ["বাংলা", "ইংরেজি", "গণিত", "ইতিহাস", "ভূগোল", "বিজ্ঞান"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_courses",
+                    "img": "images/svg/sourabhsir.jpg",
+                    "dateStart": {"year": 2025, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 2},
+                    "locales": {
+                        "en": {
+                            "title": "{{Python}} for Beginners",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "Completed an online course on Python programming from MySirg.com, focusing on building a strong foundation in coding concepts and practical problem-solving using Python.",
+                            "list": [
+                                "Mastered Python syntax, variables, and data types",
+                                "Implemented control structures like loops and conditionals",
+                                "Worked with functions, file handling, and exceptions",
+                                "Practiced hands-on coding exercises to strengthen logical thinking"
+                            ]
+                        },
+                        "hi": {
+                            "title": "शुरुआती लोगों के लिए {{पायथन}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "MySirg.com से Python प्रोग्रामिंग पर एक ऑनलाइन कोर्स पूरा किया, जिसमें Python का उपयोग करके कोडिंग अवधारणाओं और व्यावहारिक समस्या-समाधान में एक मज़बूत आधार बनाने पर ध्यान केंद्रित किया गया।",
+                            "list": [
+                                "Python सिंटैक्स, वेरिएबल्स और डेटा प्रकारों में महारत हासिल की",
+                                "लूप और कंडीशनल जैसी नियंत्रण संरचनाओं को लागू किया",
+                                "फ़ंक्शन, फ़ाइल हैंडलिंग और अपवादों के साथ काम किया",
+                                "तार्किक सोच को मज़बूत करने के लिए व्यावहारिक कोडिंग अभ्यासों का अभ्यास किया"
+                            ]
+                        },
+                        "ben": {
+                            "title": "নতুনদের জন্য {{পাইথন}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "MySirg.com থেকে Python প্রোগ্রামিং এর উপর একটি অনলাইন কোর্স সম্পন্ন করেছি, যা Python ব্যবহার করে কোডিং ধারণা এবং ব্যবহারিক সমস্যা সমাধানের একটি শক্তিশালী ভিত্তি তৈরির উপর দৃষ্টি নিবদ্ধ করে।",
+                            "list": [
+                                "Python সিনট্যাক্স, ভেরিয়েবল এবং ডেটা টাইপ আয়ত্ত করা হয়েছে",
+                                "লুপ এবং কন্ডিশনালের মতো নিয়ন্ত্রণ কাঠামো বাস্তবায়ন করা হয়েছে",
+                                "ফাংশন, ফাইল হ্যান্ডলিং এবং ব্যতিক্রম নিয়ে কাজ করা হয়েছে",
+                                "যৌক্তিক চিন্তাভাবনা জোরদার করার জন্য হাতে-কলমে কোডিং অনুশীলন অনুশীলন করা হয়েছে"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_courses",
+                    "img": "images/svg/satish.jpg",
+                    "dateStart": {"year": 2025, "month": 2},
+                    "dateEnd": {"year": 2025, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{SQL}} MasterClass",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "Completed a comprehensive SQL MasterClass covering database concepts, advanced queries, and data manipulation. Learned to design, query, and manage relational databases efficiently using SQL commands and functions.",
+                            "list": [
+                                "Wrote complex queries using joins, subqueries, and aggregate functions",
+                                "Managed and optimized database structures for better performance"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{SQL}} मास्टरक्लास",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "डेटाबेस अवधारणाओं, उन्नत क्वेरीज़ और डेटा मैनिपुलेशन को कवर करने वाला एक व्यापक SQL मास्टरक्लास पूरा किया। SQL कमांड और फ़ंक्शन का उपयोग करके रिलेशनल डेटाबेस को कुशलतापूर्वक डिज़ाइन, क्वेरी और प्रबंधित करना सीखा।",
+                            "list": [
+                                "जॉइन, सबक्वेरीज़ और एग्रीगेट फ़ंक्शन का उपयोग करके जटिल क्वेरीज़ लिखीं",
+                                "बेहतर प्रदर्शन के लिए डेटाबेस संरचनाओं को प्रबंधित और अनुकूलित किया"
+                            ]
+                        },
+                        "ben": {
+                            "title": "{{SQL}} মাস্টারক্লাস",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "ডাটাবেস ধারণা, উন্নত প্রশ্ন এবং ডেটা ম্যানিপুলেশন কভার করে একটি বিস্তৃত SQL MasterClass সম্পন্ন করেছি। SQL কমান্ড এবং ফাংশন ব্যবহার করে দক্ষতার সাথে রিলেশনাল ডাটাবেস ডিজাইন, প্রশ্ন এবং পরিচালনা করতে শিখেছি।",
+                            "list": [
+                                "Joins, subqueries এবং সমষ্টিগত ফাংশন ব্যবহার করে জটিল প্রশ্ন লিখেছেন",
+                                "ভালো কর্মক্ষমতার জন্য ডাটাবেস কাঠামো পরিচালিত এবং অপ্টিমাইজ করা হয়েছে"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_courses",
+                    "img": "images/svg/satish.jpg",
+                    "dateStart": {"year": 2025, "month": 7},
+                    "dateEnd": {"year": 2025, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Power BI}} MasterClass",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "Completed an in-depth Power BI MasterClass focusing on data visualization, dashboard creation, and business intelligence. Gained expertise in transforming raw data into interactive reports and actionable insights using Power BI tools and features.",
+                            "list": [
+                                "Designed dynamic dashboards with interactive visuals and filters",
+                                "Connected, cleaned, and modeled data from multiple sources for analysis"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{Power BI}} मास्टरक्लास",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "डेटा विज़ुअलाइज़ेशन, डैशबोर्ड निर्माण और बिज़नेस इंटेलिजेंस पर केंद्रित एक गहन Power BI मास्टरक्लास पूरा किया। Power BI टूल और सुविधाओं का उपयोग करके कच्चे डेटा को इंटरैक्टिव रिपोर्ट और कार्रवाई योग्य जानकारी में बदलने में विशेषज्ञता हासिल की।",
+                            "list": [
+                                "इंटरैक्टिव विज़ुअल और फ़िल्टर के साथ डायनामिक डैशबोर्ड डिज़ाइन किए",
+                                "विश्लेषण के लिए कई स्रोतों से डेटा को कनेक्ट, साफ़ और मॉडल किया"
+                            ]
+                        },
+                        "ben": {
+                            "title": "{{Power BI}} মাস্টারক্লাস",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "ডেটা ভিজ্যুয়ালাইজেশন, ড্যাশবোর্ড তৈরি এবং ব্যবসায়িক বুদ্ধিমত্তার উপর দৃষ্টি নিবদ্ধ করে একটি গভীর Power BI MasterClass সম্পন্ন করেছি। Power BI টুল এবং বৈশিষ্ট্য ব্যবহার করে কাঁচা ডেটাকে ইন্টারেক্টিভ রিপোর্ট এবং কার্যকর অন্তর্দৃষ্টিতে রূপান্তর করার ক্ষেত্রে দক্ষতা অর্জন করেছি।",
+                            "list": [
+                                "ইন্টারেক্টিভ ভিজ্যুয়াল এবং ফিল্টার সহ ডায়নামিক ড্যাশবোর্ড ডিজাইন করা হয়েছে",
+                                "বিশ্লেষণের জন্য একাধিক উৎস থেকে সংযুক্ত, পরিষ্কার এবং মডেল করা ডেটা"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_courses",
+                    "img": "images/svg/satish.jpg",
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"year": 2025, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Excel}} MasterClass",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "Completed a comprehensive Excel MasterClass covering advanced formulas, data analysis tools, pivot tables, and automation techniques. Developed skills to efficiently organize, analyze, and present data for professional and business purposes.",
+                            "list": [
+                                "Applied advanced Excel functions and data visualization techniques for reporting",
+                                "Created dynamic dashboards and automated workflows using formulas and macros"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{Excel}} मास्टरक्लास",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "उन्नत फ़ार्मुलों, डेटा विश्लेषण टूल, पिवट टेबल और स्वचालन तकनीकों को शामिल करते हुए एक व्यापक Excel मास्टरक्लास पूरा किया। व्यावसायिक और व्यावसायिक उद्देश्यों के लिए डेटा को कुशलतापूर्वक व्यवस्थित, विश्लेषण और प्रस्तुत करने के कौशल विकसित किए।",
+                            "list": 
+                            [
+                                "रिपोर्टिंग के लिए उन्नत एक्सेल फ़ंक्शन और डेटा विज़ुअलाइज़ेशन तकनीकों का अनुप्रयोग",
+                                "सूत्रों और मैक्रोज़ का उपयोग करके गतिशील डैशबोर्ड और स्वचालित वर्कफ़्लोज़ बनाए"
+                            ]
+                        },
+                        "ben": {
+                            "title": "{{Excel}} মাস্টারক্লাস",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "SkillCourse.in",
+                            "text": "উন্নত সূত্র, ডেটা বিশ্লেষণ সরঞ্জাম, পিভট টেবিল এবং অটোমেশন কৌশলগুলি অন্তর্ভুক্ত করে একটি বিস্তৃত এক্সেল মাস্টারক্লাস সম্পন্ন করা হয়েছে। পেশাদার এবং ব্যবসায়িক উদ্দেশ্যে দক্ষতার সাথে ডেটা সংগঠিত, বিশ্লেষণ এবং উপস্থাপন করার দক্ষতা অর্জন করা হয়েছে।",
+                            "list": [
+                               "রিপোর্টিংয়ের জন্য উন্নত এক্সেল ফাংশন এবং ডেটা ভিজ্যুয়ালাইজেশন কৌশল প্রয়োগ করা হয়েছে",
+                                "সূত্র এবং ম্যাক্রো ব্যবহার করে গতিশীল ড্যাশবোর্ড এবং স্বয়ংক্রিয় কর্মপ্রবাহ তৈরি করা হয়েছে"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_courses",
+                    "img": "images/svg/sourabhsir.jpg",
+                    "dateStart": {"year": 2024, "month": 6},
+                    "dateEnd": {"year": 2024, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{C, C++, DSA and STL}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "Completed an in-depth course on C, C++, Data Structures & Algorithms (DSA), and Standard Template Library (STL) from MySirg.com. Gained strong programming fundamentals and problem-solving skills through hands-on practice.",
+                            "list": [
+                                "Mastered C and C++ syntax, variables, and object-oriented concepts",
+                                "Implemented core Data Structures like arrays, linked lists, stacks, and queues",
+                                "Learned algorithm design and analysis for efficient problem-solving",
+                                "Utilized STL containers, iterators, and algorithms for faster development"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{C, C++, DSA और STL}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "MySirg.com से C, C++, डेटा स्ट्रक्चर्स और एल्गोरिदम (DSA), और स्टैंडर्ड टेम्प्लेट लाइब्रेरी (STL) पर एक गहन पाठ्यक्रम पूरा किया। व्यावहारिक अभ्यास के माध्यम से मज़बूत प्रोग्रामिंग बुनियादी बातें और समस्या-समाधान कौशल प्राप्त किए।",
+                            "list": [
+                                "C और C++ सिंटैक्स, वेरिएबल्स और ऑब्जेक्ट-ओरिएंटेड अवधारणाओं में महारत हासिल की",
+                                "सरणी, लिंक्ड लिस्ट, स्टैक और क्यू जैसी मुख्य डेटा संरचनाओं को लागू किया",
+                                "कुशल समस्या-समाधान के लिए एल्गोरिथम डिज़ाइन और विश्लेषण सीखा",
+                                "तेज़ विकास के लिए STL कंटेनर, इटरेटर और एल्गोरिथम का उपयोग किया"
+                            ]
+                        },
+                        "ben": {
+                            "title": "{{C, C++, DSA and STL}}",
+                            "province": "",
+                            "country": "Online",
+                            "institution": "MySirG.com",
+                            "text": "MySirg.com থেকে C, C++, Data Structures & Algorithms (DSA), এবং Standard Template Library (STL) এর উপর একটি গভীর কোর্স সম্পন্ন করেছি। হাতে-কলমে অনুশীলনের মাধ্যমে শক্তিশালী প্রোগ্রামিং মৌলিক বিষয় এবং সমস্যা সমাধানের দক্ষতা অর্জন করেছি।",
+                            "list": [
+                                "সি এবং সি++ সিনট্যাক্স, ভেরিয়েবল এবং অবজেক্ট-ওরিয়েন্টেড ধারণাগুলিতে দক্ষতা অর্জন",
+                                "অ্যারে, লিঙ্কড লিস্ট, স্ট্যাক এবং কিউ-এর মতো বাস্তবায়িত মূল ডেটা স্ট্রাকচার",
+                                "দক্ষ সমস্যা সমাধানের জন্য অ্যালগরিদম ডিজাইন এবং বিশ্লেষণ শেখা",
+                                "দ্রুত বিকাশের জন্য ব্যবহৃত STL কন্টেইনার, ইটারেটর এবং অ্যালগরিদম"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

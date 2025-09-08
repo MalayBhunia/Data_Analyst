@@ -1,0 +1,387 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "hi": {
+                "title_short": "हाल ही में जीवन",
+                "title_short_nav": "अपडेट",
+                "title_long_prefix": "मेरे जीवन पर एक नज़र डालें",
+                "title_long": "हाल ही के {{अपडेट}}"
+            },
+            "ben": {
+                "title_short": "সাম্প্রতিক জীবন",
+                "title_short_nav": "আপডেট",
+                "title_long_prefix": "আমারটা একবার দেখে নাও",
+                "title_long": "সাম্প্রতিক {{আপডেট}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-chart-pie",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "05",
+                            "text": "Created Dashboard"
+                        },
+                        "hi": {
+                            "title": "05",
+                            "text": "डैशबोर्ड बनाया गया"
+                        },
+                        "ben": {
+                            "title": "০৫",
+                            "text": "ড্যাশবোর্ড তৈরি করা হয়েছে"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-user",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "07",
+                            "text": "Satisfied Clients"
+                        },
+                        "hi": {
+                            "title": "07",
+                            "text": "संतुष्ट ग्राहक"
+                        },
+                        "ben": {
+                            "title": "০৭",
+                            "text": "সন্তুষ্ট ক্লায়েন্ট"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-user-tie",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "04",
+                            "text": "Portfolio Published"
+                        },
+                        "hi": {
+                            "title": "04",
+                            "text": "पोर्टफोलियो प्रकाशित"
+                        },
+                        "ben": {
+                            "title": "০৪",
+                            "text": "পোর্টফোলিও প্রকাশিত"
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "7,000+",
+                            "text": "Coffees consumed"
+                        },
+                        "hi": {
+                            "title": "7,000+",
+                            "text": "कॉफ़ी पी गई"
+                        },
+                        "ben": {
+                            "title": "৭,০০০+",
+                            "text": "কফি খাওয়া হয়েছে"
+                        }
+                    }
+                },
+
+
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,00+",
+                            "text": "Lines of code"
+                        },
+                        "hi": {
+                            "title": "1,000,00+",
+                            "text": "कोड की पंक्तियाँ"
+                        },
+                        "ben": {
+                            "title": "১,০০০,০০+",
+                            "text": "কোডের লাইন"
+                        }
+                    }
+                },
+
+                {
+                    "id": 7,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "hi": {
+                            "title": "अनंत",
+                            "text": "सीखने का जुनून"
+                        },
+                        "ben": {
+                            "title": "অসীম",
+                            "text": "শেখার প্রতি আগ্রহ"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Life {{Updates}}" },
+                "hi": { "title": "जीवन {{अपडेट}}" },
+                "ben": { "title": "জীবন {{আপডেট}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2025, "month": 7},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "open_website", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Working on {{Data Analyst projects}}",
+                            "country": "India",
+                            "institution": "",
+                            "text": "Working on diverse Data Analyst projects involving data cleaning, analysis, and visualization, extracting actionable insights {{using Python, SQL, Excel, and Power BI}} to support informed decision-making and optimize business performance."
+                        },
+                        "hi": {
+                            "title": "{{डेटा विश्लेषक परियोजनाओं}} पर काम कर रहा/रही हूँ",
+                            "country": "भारत",
+                            "institution": "",
+                            "text": "डेटा क्लीनिंग, विश्लेषण और विज़ुअलाइज़ेशन से जुड़ी विविध डेटा विश्लेषक परियोजनाओं पर काम कर रहा/रही हूँ, और सूचित निर्णय लेने में सहायता करने और व्यावसायिक प्रदर्शन को अनुकूलित करने के लिए {{पायथन, SQL, Excel और Power BI का उपयोग करके}} कार्रवाई योग्य जानकारी निकाल रहा/रही हूँ।"
+                        },
+                        "ben": {
+                            "title": "{{ডেটা অ্যানালিস্ট প্রকল্প}} নিয়ে কাজ করা",
+                            "country": "ভারত",
+                            "institution": "",
+                            "text": "ডেটা পরিষ্কারকরণ, বিশ্লেষণ এবং ভিজ্যুয়ালাইজেশনের সাথে জড়িত বিভিন্ন ডেটা অ্যানালিস্ট প্রকল্পে কাজ করা, {{পাইথন, এসকিউএল, এক্সেল এবং পাওয়ার বিআই ব্যবহার করে}} কার্যকর অন্তর্দৃষ্টি বের করা যাতে তথ্যবহুল সিদ্ধান্ত গ্রহণে সহায়তা করা যায় এবং ব্যবসায়িক কর্মক্ষমতা অপ্টিমাইজ করা যায়।"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 7},
+                    "preview": {
+                        "links": [
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=2nMZuWdX9Zw&t=7539s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning advanced {{DAX Formulas}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Currently learning Advanced DAX formulas in Power BI under the guidance of Satish Dhawale Sir. This training is helping me strengthen my skills in creating complex measures, improving data modeling, and performing advanced analytics to extract meaningful business insights and make data-driven decisions more effectively."
+                        },
+                        "hi": {
+                            "title": "उन्नत {{DAX फ़ॉर्मूले}} सीख रहा हूँ",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "SkillCourse",
+                            "text": "वर्तमान में सतीश धावले सर के मार्गदर्शन में Power BI में उन्नत DAX फ़ॉर्मूले सीख रहा हूँ। यह प्रशिक्षण मुझे जटिल माप बनाने, डेटा मॉडलिंग में सुधार करने, और सार्थक व्यावसायिक अंतर्दृष्टि प्राप्त करने तथा डेटा-संचालित निर्णय अधिक प्रभावी ढंग से लेने के लिए उन्नत विश्लेषण करने में अपने कौशल को मज़बूत करने में मदद कर रहा है।"
+                        },
+                        "ben": {
+                            "title": "উন্নত {{DAX সূত্র}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "স্কিলকোর্স",
+                            "text": "বর্তমানে সতীশ ধাওয়ালে স্যারের নির্দেশনায় পাওয়ার BI তে উন্নত DAX সূত্র শেখা হচ্ছে। এই প্রশিক্ষণ আমাকে জটিল পরিমাপ তৈরি, ডেটা মডেলিং উন্নত করা এবং অর্থপূর্ণ ব্যবসায়িক অন্তর্দৃষ্টি বের করার জন্য উন্নত বিশ্লেষণ সম্পাদনের দক্ষতা বৃদ্ধি করতে এবং ডেটা-চালিত সিদ্ধান্তগুলি আরও কার্যকরভাবে নিতে সাহায্য করছে।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2025, "month": 1},
+                     "preview": {
+                        "links": [
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=8IuqFU5gw1E&t=28664s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning advanced {{sql queries}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning {{advanced SQL queries}} to efficiently manipulate, analyze, and retrieve complex datasets, mastering joins, subqueries, window functions, and optimization techniques to enhance data analysis, reporting, and decision-making capabilities."
+                        },
+                        "hi": {
+                            "title": "उन्नत {{sql क्वेरीज़}} सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "जटिल डेटासेट को कुशलतापूर्वक संचालित, विश्लेषण और पुनर्प्राप्त करने के लिए {{उन्नत SQL क्वेरीज़}} सीखना, जॉइन, सबक्वेरीज़, विंडो फ़ंक्शन और ऑप्टिमाइज़ेशन तकनीकों में महारत हासिल करना ताकि डेटा विश्लेषण, रिपोर्टिंग और निर्णय लेने की क्षमता को बढ़ाया जा सके।"
+                        },
+                        "ben": {
+                            "title": "উন্নত {{sql queries}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "SkillCourse",
+                            "text": "জটিল ডেটাসেটগুলি দক্ষতার সাথে পরিচালনা, বিশ্লেষণ এবং পুনরুদ্ধার করার জন্য {{advanced SQL queries}} শেখা, ডেটা বিশ্লেষণ, রিপোর্টিং এবং সিদ্ধান্ত গ্রহণের ক্ষমতা বাড়ানোর জন্য জয়েন, সাবকোয়েরি, উইন্ডো ফাংশন এবং অপ্টিমাইজেশন কৌশলগুলি আয়ত্ত করা।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {"year": 2024, "month": 4},
+                    "preview": {
+                        "links": [
+                            {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=KdC5R7oPCAI&t=20518s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning {{Power BI}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning Power BI to create interactive dashboards, insightful visualizations, and data-driven reports, {{mastering DAX, data modeling}}, and transformation to analyze trends, monitor performance, and support effective business decision-making."
+                        },
+                        "hi": {
+                            "title": "पावर BI सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "इंटरैक्टिव डैशबोर्ड, व्यावहारिक विज़ुअलाइज़ेशन और डेटा-संचालित रिपोर्ट बनाने, {{DAX में महारत हासिल करना, डेटा मॉडलिंग}}, और रुझानों का विश्लेषण करने, प्रदर्शन की निगरानी करने और प्रभावी व्यावसायिक निर्णय लेने में सहायता के लिए रूपांतरण हेतु पावर BI सीखना।"
+                        },
+                        "ben": {
+                            "title": "{{পাওয়ার বিআই} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "SkillCourse",
+                            "text": "পাওয়ার বিআই শেখা ইন্টারেক্টিভ ড্যাশবোর্ড, অন্তর্দৃষ্টিপূর্ণ ভিজ্যুয়ালাইজেশন এবং ডেটা-চালিত প্রতিবেদন তৈরি করবে, {{DAX, ডেটা মডেলিং আয়ত্ত করবে}}, এবং ট্রেন্ড বিশ্লেষণ, কর্মক্ষমতা পর্যবেক্ষণ এবং কার্যকর ব্যবসায়িক সিদ্ধান্ত গ্রহণে সহায়তা করার জন্য রূপান্তর করবে।"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {"year": 2025, "month": 3},
+                    "preview": {
+                        "links": [
+                           {"href": "https://skillcourse.in/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=XbyiTh-6k9Q&t=7538s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning {{advanced Excel}}",
+                            "province": "Mumbai",
+                            "country": "India",
+                            "institution": "SkillCourse",
+                            "text": "Learning advanced Excel skills, {{including pivot tables, complex formulas}}, data analysis tools, and automation with macros, to efficiently manage, analyze, and visualize data for improved accuracy, productivity, and decision-making."
+                        },
+                        "hi": {
+                            "title": "उन्नत एक्सेल सीखना",
+                            "province": "मुंबई",
+                            "country": "भारत",
+                            "institution": "कौशल पाठ्यक्रम",
+                            "text": "उन्नत एक्सेल कौशल सीखना, {{पिवट टेबल, जटिल सूत्र सहित}}, डेटा विश्लेषण उपकरण, और मैक्रोज़ के साथ स्वचालन, ताकि बेहतर सटीकता, उत्पादकता और निर्णय लेने के लिए डेटा का कुशलतापूर्वक प्रबंधन, विश्लेषण और विज़ुअलाइज़ेशन किया जा सके।"
+                        },
+                        "ben": {
+                            "title": "{{অ্যাডভান্সড এক্সেল}} শেখা",
+                            "province": "মুম্বাই",
+                            "country": "ভারত",
+                            "institution": "স্কিলকোর্স",
+                            "text": "উন্নত নির্ভুলতা, উৎপাদনশীলতা এবং সিদ্ধান্ত গ্রহণের জন্য দক্ষতার সাথে ডেটা পরিচালনা, বিশ্লেষণ এবং কল্পনা করার জন্য উন্নত এক্সেল দক্ষতা শেখা, {{পিভট টেবিল, জটিল সূত্র সহ}}, ডেটা বিশ্লেষণ সরঞ্জাম এবং ম্যাক্রো সহ অটোমেশন।"
+                            }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {"year": 2024, "month": 10},
+                     "preview": {
+                        "links": [
+                            {"href": "https://premium.mysirg.com/", "tooltipString": "open_website", "faIcon": "fa-solid fa-eye"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/@mysirgdotcom/playlists"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Learning {{python librarys}}",
+                            "province": "Bhopal",
+                            "country": "India",
+                            "institution": "MySirG.com",
+                            "text": "Learning Python libraries like {{Pandas, NumPy, Matplotlib, and Seaborn}} to handle data manipulation, numerical computations, and visualization, enabling efficient analysis, insightful reporting, and automation of data-related tasks for various projects."
+                        },
+                        "hi": {
+                            "title": "{{python librarys}} सीखना",
+                            "province": "भोपाल",
+                            "country": "भारत",
+                            "institution": "MySirG.com",
+                            "text": "डेटा हेरफेर, संख्यात्मक गणना और विज़ुअलाइज़ेशन को संभालने के लिए {{Pandas, NumPy, Matplotlib, और Seaborn}} जैसी पायथन लाइब्रेरीज़ सीखना, जिससे विभिन्न परियोजनाओं के लिए डेटा-संबंधी कार्यों का कुशल विश्लेषण, व्यावहारिक रिपोर्टिंग और स्वचालन संभव हो सके।"
+                        },
+                        "ben": {
+                            "title": "{{পাইথন লাইব্রেরি}} শেখা",
+                            "province": "ভোপাল",
+                            "country": "ভারত",
+                            "institution": "MySirG.com",
+                            "text": "ডেটা ম্যানিপুলেশন, সংখ্যাসূচক গণনা এবং ভিজ্যুয়ালাইজেশন পরিচালনা করার জন্য {{Pandas, NumPy, Matplotlib, এবং Seaborn}} এর মতো পাইথন লাইব্রেরি শেখা, যা বিভিন্ন প্রকল্পের জন্য দক্ষ বিশ্লেষণ, অন্তর্দৃষ্টিপূর্ণ প্রতিবেদন এবং ডেটা-সম্পর্কিত কাজের স্বয়ংক্রিয়তা সক্ষম করে।"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

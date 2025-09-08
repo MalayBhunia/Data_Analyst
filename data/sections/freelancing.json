@@ -1,0 +1,294 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "{{Data Analytics}} Services",
+                "title_short_nav": "Services",
+                "title_long_prefix": "You can hire my",
+                "title_long": "{{Data Analytics}} Services"
+            },
+            "hi": {
+                "title_short": "डेटा एनालिटिक्स सेवाएँ",
+                "title_short_nav": "सेवाएँ",
+                "title_long_prefix": "आप मेरी सेवाएँ ले सकते हैं",
+                "title_long": "{{डेटा एनालिटिक्स}} सेवाएँ"
+            },
+            "ben": {
+                "title_short": "{{ডেটা অ্যানালিটিক্স}} পরিষেবা",
+                "title_short_nav": "পরিষেবা",
+                "title_long_prefix": "আপনি আমার ভাড়া করতে পারেন",
+                "title_long": "{{ডেটা অ্যানালিটিক্স}} পরিষেবা"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/svg/dash2.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I've been working as a {{Data analyst}} since 2025. delivering valuable insights across diverse projects. Whether analyzing data from scratch or enhancing ongoing analytics workflows, I consistently transform raw information into clear, actionable strategies with precision, creativity, and technical expertise.</p> <p>If you're interested in working with me, <a href='https://wa.me/918101032364' target='_blank'>Don't hesitate to contact us on WhatsApp by Clicking now</a>. I'd be happy to discuss your project, budget, technical needs, and everything in between.</p>"
+                        },
+                        "hi": {
+                            "text": "<p>मैं 2025 से एक {{डेटा विश्लेषक}} के रूप में कार्यरत हूँ। मैं विविध परियोजनाओं में बहुमूल्य अंतर्दृष्टि प्रदान करता हूँ। चाहे डेटा का शुरू से विश्लेषण करना हो या चल रहे एनालिटिक्स वर्कफ़्लो को बेहतर बनाना हो, मैं लगातार कच्ची जानकारी को सटीकता, रचनात्मकता और तकनीकी विशेषज्ञता के साथ स्पष्ट, क्रियाशील रणनीतियों में बदलता रहता हूँ।</p> <p>अगर आप मेरे साथ काम करने में रुचि रखते हैं, तो <a href='https://wa.me/918101032364' target='_blank'>अभी क्लिक करके हमसे WhatsApp पर संपर्क करने में संकोच न करें</a>। मुझे आपकी परियोजना, बजट, तकनीकी ज़रूरतों और अन्य सभी विषयों पर चर्चा करने में खुशी होगी।</p>"
+                        },
+                        "ben": {
+                            "text": "<p>আমি ২০২৫ সাল থেকে একজন {{ডেটা বিশ্লেষক}} হিসেবে কাজ করছি। বিভিন্ন প্রকল্পে মূল্যবান অন্তর্দৃষ্টি প্রদান করছি। শুরু থেকে ডেটা বিশ্লেষণ করা হোক বা চলমান বিশ্লেষণ কর্মপ্রবাহ বৃদ্ধি করা হোক, আমি ধারাবাহিকভাবে কাঁচা তথ্যকে স্পষ্ট, কার্যকর কৌশলে রূপান্তর করি নির্ভুলতা, সৃজনশীলতা এবং প্রযুক্তিগত দক্ষতার সাথে।</p> <p>আপনি যদি আমার সাথে কাজ করতে আগ্রহী হন, <a href='https://wa.me/918101032364' target='_blank'>এখনই ক্লিক করে WhatsApp-এ আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না</a>। আমি আপনার প্রকল্প, বাজেট, প্রযুক্তিগত চাহিদা এবং এর মধ্যে সবকিছু নিয়ে আলোচনা করতে পেরে খুশি হব।</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"},
+                "hi": {"title": "ग्राहकों की {{गवाही}}"},
+                "ben": {"title": "ক্লায়েন্ট {{প্রশংসাপত্র}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Souvik Porey",
+                    "link": {"href": "https://www.linkedin.com/in/souvik-porey-97b2a8293/", "tooltipString": "open_website"},
+                    "img": "images/svg/souvik.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Retail Business Owner",
+                            "text": "Their ability to turn raw, unstructured data into meaningful insights was impressive. The reports were clear, accurate, and helped us make confident business decisions.!"
+                        },
+                        "hi": {
+                            "title": "खुदरा व्यवसाय स्वामी",
+                            "text": "कच्चे, असंरचित डेटा को सार्थक अंतर्दृष्टि में बदलने की उनकी क्षमता प्रभावशाली थी। रिपोर्ट स्पष्ट और सटीक थीं, और हमें आत्मविश्वास से भरे व्यावसायिक निर्णय लेने में मदद करती थीं!"
+                        },
+                        "ben": {
+                            "title": "খুচরা ব্যবসার মালিক",
+                            "text": "কাঁচা, অসংগঠিত তথ্যকে অর্থপূর্ণ অন্তর্দৃষ্টিতে রূপান্তর করার তাদের ক্ষমতা চিত্তাকর্ষক ছিল। প্রতিবেদনগুলি স্পষ্ট, নির্ভুল ছিল এবং আমাদের আত্মবিশ্বাসী ব্যবসায়িক সিদ্ধান্ত নিতে সাহায্য করেছিল.!"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "label": "Supratim Santra",
+                    "link": {"href": "https://www.linkedin.com/in/supratim-santra-9677a6266/", "tooltipString": "open_website"},
+                    "img": "images/svg/suprotim.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Operations Head",
+                            "text": "Their predictive analytics helped us forecast demand more accurately, reducing costs and improving efficiency. Highly professional and detail-focused throughout the project.!"
+                        },
+                        "hi": {
+                            "title": "संचालन प्रमुख",
+                            "text": "उनके पूर्वानुमानात्मक विश्लेषण ने हमें माँग का अधिक सटीक पूर्वानुमान लगाने, लागत कम करने और दक्षता में सुधार करने में मदद की। पूरी परियोजना के दौरान वे अत्यधिक पेशेवर और विस्तृत थे।!"
+                        },
+                        "ben": {
+                            "title": "অপারেশন হেড",
+                            "text": "তাদের ভবিষ্যদ্বাণীমূলক বিশ্লেষণ আমাদের চাহিদা আরও সঠিকভাবে পূর্বাভাস দিতে সাহায্য করেছে, খরচ কমিয়েছে এবং দক্ষতা উন্নত করেছে। পুরো প্রকল্প জুড়ে অত্যন্ত পেশাদার এবং বিস্তারিত-কেন্দ্রিক.!"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "label": "Soumitra Dinda",
+                    "link": {"href": "https://www.linkedin.com/in/soumitra-dinda-4168312b6/", "tooltipString": "open_website"},
+                    "img": "images/svg/soumitra.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Marketing Manager",
+                            "text": "They streamlined our data processes and built dashboards that made complex trends easy to understand. A real game-changer for our marketing strategy.!"
+                        },
+                        "hi": {
+                            "title": "मार्केटिंग मैनेजर",
+                            "text": "उन्होंने हमारी डेटा प्रक्रियाओं को सुव्यवस्थित किया और ऐसे डैशबोर्ड बनाए जिनसे जटिल रुझानों को समझना आसान हो गया। हमारी मार्केटिंग रणनीति के लिए एक बड़ा बदलाव!"
+                        },
+                        "ben": {
+                            "title": "মার্কেটিং ম্যানেজার",
+                            "text": "তারা আমাদের ডেটা প্রক্রিয়াগুলিকে সহজতর করেছে এবং ড্যাশবোর্ড তৈরি করেছে যা জটিল প্রবণতাগুলিকে বোঝা সহজ করে তুলেছে। আমাদের মার্কেটিং কৌশলের জন্য একটি সত্যিকারের গেম-চেঞ্জার.!"
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "label": "Hriday Barman",
+                    "link": {"href": "https://www.linkedin.com/in/hriday-barman-595b42292/", "tooltipString": "open_website"},
+                    "img": "images/svg/hriday.jpeg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Startup Founder",
+                            "text": "What stood out was their commitment to delivering actionable insights, not just numbers. Every recommendation they gave drove measurable results for our startup!"
+                        },
+                        "hi": {
+                            "title": "स्टार्टअप संस्थापक",
+                            "text": "सबसे ख़ास बात यह थी कि वे सिर्फ़ संख्याएँ ही नहीं, बल्कि व्यावहारिक जानकारी देने के लिए प्रतिबद्ध थे। उनकी हर सिफ़ारिश ने हमारे स्टार्टअप के लिए मापनीय परिणाम दिए!"
+                        },
+                        "ben": {
+                            "title": "স্টার্টআপ প্রতিষ্ঠাতা",
+                            "text": "শুধু সংখ্যা নয়, বরং কার্যকর অন্তর্দৃষ্টি প্রদানের প্রতি তাদের প্রতিশ্রুতিই উল্লেখযোগ্য ছিল। তাদের প্রতিটি সুপারিশ আমাদের স্টার্টআপের জন্য পরিমাপযোগ্য ফলাফল এনে দিয়েছে!"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "locales": {
+                "en": {"title": "What {{I do}}"},
+                "hi": {"title": "मैं क्या {{करूं}}"},
+                "ben": {"title": "আমি {{কি করি?}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon":"fa-solid fa-magnifying-glass-chart",
+                    "percentage":70,
+                    "locales": {
+                        "en": {
+                            "title": "{{Data}} Analysis",
+                            "text": "I can perform your data analysis from scratch or enhance insights in ongoing analysis projects."
+                        },
+                        "hi": {
+                            "title": "{{डेटा}} विश्लेषण",
+                            "text": "मैं आपका डेटा विश्लेषण शुरू से कर सकता/सकती हूँ या चल रही विश्लेषण परियोजनाओं में अंतर्दृष्टि बढ़ा सकता/सकती हूँ।"
+                        },
+                        "ben": {
+                            "title": "{{তথ্য}} বিশ্লেষণ",
+                            "text": "আমি আপনার ডেটা বিশ্লেষণ শুরু থেকে করতে পারি অথবা চলমান বিশ্লেষণ প্রকল্পগুলিতে অন্তর্দৃষ্টি উন্নত করতে পারি।"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-code-fork",
+                    "percentage":75,
+                    "locales": {
+                        "en": {
+                            "title": "{{Data Collection}} and Management",
+                            "text": "I can handle your data collection and management from scratch or optimize processes in ongoing projects."
+                        },
+                        "hi": {
+                            "title": "{{डेटा संग्रह}} और प्रबंधन",
+                            "text": "मैं आपके डेटा संग्रह और प्रबंधन को शुरू से संभाल सकता हूँ या चल रही परियोजनाओं में प्रक्रियाओं को अनुकूलित कर सकता हूँ।"
+                        },
+                        "ben": {
+                            "title": "{{তথ্য সংগ্রহ}} এবং ব্যবস্থাপনা",
+                            "text": "আমি আপনার ডেটা সংগ্রহ এবং ব্যবস্থাপনা শুরু থেকেই পরিচালনা করতে পারি অথবা চলমান প্রকল্পগুলিতে প্রক্রিয়াগুলি অপ্টিমাইজ করতে পারি।"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-simple",
+                    "percentage":80,
+                    "locales": {
+                        "en": {
+                            "title": "Data {{cleaning}}",
+                            "text": "I can clean your data from scratch or improve accuracy in ongoing datasets."
+                        },
+                        "hi": {
+                            "title": "डेटा {{सफाई}}",
+                            "text": "मैं आपके डेटा को बिल्कुल नए सिरे से साफ़ कर सकता/सकती हूँ या मौजूदा डेटासेट की सटीकता में सुधार कर सकता/सकती हूँ।"
+                        },
+                        "ben": {
+                            "title": "ডেটা {{পরিষ্কার করা}}",
+                            "text": "আমি আপনার ডেটা স্ক্র্যাচ থেকে পরিষ্কার করতে পারি অথবা চলমান ডেটাসেটে নির্ভুলতা উন্নত করতে পারি।"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "percentage":75,
+                    "locales": {
+                        "en": {
+                            "title": "Data {{Visualizations}}",
+                            "text": "I can create your data visualizations from scratch or enhance clarity in ongoing visualization projects."
+                        },
+                        "hi": {
+                            "title": "डेटा {{विज़ुअलाइज़ेशन}}",
+                            "text": "मैं आपके डेटा विज़ुअलाइज़ेशन को बिल्कुल नए सिरे से बना सकता/सकती हूँ या चल रहे विज़ुअलाइज़ेशन प्रोजेक्ट्स में स्पष्टता बढ़ा सकता/सकती हूँ।"
+                        },
+                        "ben": {
+                            "title": "তথ্য {{ভিজ্যুয়ালাইজেশন}}",
+                            "text": "আমি আপনার ডেটা ভিজ্যুয়ালাইজেশনগুলি শুরু থেকে তৈরি করতে পারি অথবা চলমান ভিজ্যুয়ালাইজেশন প্রকল্পগুলিতে স্পষ্টতা বাড়াতে পারি।"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-bug-slash",
+                    "percentage":80,
+                    "locales": {
+                        "en": {
+                            "title": "{{Problem}} Solving",
+                            "text": "I can solve your problems from scratch or improve solutions in ongoing projects."
+                        },
+                        "hi": {
+                            "title": "{{समस्या}} का समाधान",
+                            "text": "मैं आपकी समस्याओं को शुरू से हल कर सकता हूँ या चल रही परियोजनाओं में समाधानों को बेहतर बना सकता हूँ।"
+                        },
+                        "ben": {
+                            "title": "{{সমস্যা}} সমাধান",
+                            "text": "আমি আপনার সমস্যাগুলি শুরু থেকেই সমাধান করতে পারি অথবা চলমান প্রকল্পগুলিতে সমাধানগুলি উন্নত করতে পারি।"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "percentage":85,
+                    "locales": {
+                        "en": {
+                            "title": "{{Coding}}",
+                            "text": "I can apply my strong coding knowledge from scratch or refine code in ongoing projects."
+                        },
+                        "hi": {
+                            "title": "{{कोडिंग}}",
+                            "text": "मैं अपने मज़बूत कोडिंग ज्ञान को शुरुआत से लागू कर सकता हूँ या चल रहे प्रोजेक्ट्स में कोड को बेहतर बना सकता हूँ।"
+                        },
+                        "ben": {
+                            "title": "{{কোডিং}}",
+                            "text": "আমি আমার শক্তিশালী কোডিং জ্ঞান শুরু থেকেই প্রয়োগ করতে পারি অথবা চলমান প্রকল্পগুলিতে কোড পরিমার্জন করতে পারি।"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "hi": {
+                "title_short": "संपर्क करें",
+                "title_short_nav": "संपर्क करें",
+                "title_long_prefix": "संकोच न करें",
+                "title_long": "{{संपर्क करें}} मुझसे"
+            },
+            "ben": {
+                "title_short": "যোগাযোগ",
+                "title_short_nav": "যোগাযোগ",
+                "title_long_prefix": "সংকোচ করবেন না",
+                "title_long": "{{যোগাযোগ}} আমার"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "KruKYfzbFusINnlQ2",
+                "email_js_service_id": "service_g7yxb5w",
+                "email_js_template_id": "template_4ff3cnr"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "hi": {
+                    "contact_thank_you_title": "संपर्क के लिए {{धन्यवाद}}!",
+                    "contact_thank_you_body": "आपका संदेश प्राप्त हो गया है, और मैं जल्द ही आपसे संपर्क करूँगा/करूँगी। आपके समय के लिए आभारी रहूँगा/रहूँगी और आपसे जुड़ने के लिए उत्सुक हूँ!",
+                    "contact_thank_you_footer": "उत्तर आपके ईमेल पते पर भेजा जाएगा: {{$email}}",
+                    "title": "मुझे एक {{संदेश}} भेजें"
+                },
+                "ben": {
+                    "contact_thank_you_title": "যোগাযোগের জন্য {{ধন্যবাদ}}!",
+                    "contact_thank_you_body": "আপনার বার্তাটি গৃহীত হয়েছে, এবং আমি শীঘ্রই আপনার সাথে যোগাযোগ করব। আপনার সময়ের জন্য আমি কৃতজ্ঞ এবং আপনার সাথে যোগাযোগ করার জন্য অধীর আগ্রহে অপেক্ষা করছি!",
+                    "contact_thank_you_footer": "উত্তরটি আপনার ইমেল ঠিকানায় পাঠানো হবে: {{$email}}",
+                    "title": "আমাকে একটি {{বার্তা}} পাঠান"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "hi": {"title": "या यदि आप {{पसंद}}..."},
+                "ben": {"title": "অথবা যদি তুমি {{পছন্দ করো}}..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+91 8101032364",
+                    "link": {"href": "tel:+918101032364", "tooltipString": "call_me"},
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "hi": {"title": "फ़ोन"},
+                        "ben": {"title": "ফোন"}
+                    }
+                },
+                {
+                    "id":2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "mbhunia098@gmail.com",
+                    "link": {"href":"mailto:mbhunia098@gmail.com", "tooltipString": "Email me"},
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "hi": {"title": "ई-मेल"},
+                        "ben": {"title": "ই-মেইল"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-whatsapp",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@MalayBhunia",
+                    "link": {"href": "https://wa.me/918101032364?text=Hello Malay, I am interested in your services. Please share the pricing plan. Thanks! ?", "tooltipString": "Click to WhatsApp"},
+                    "locales": {
+                        "en": {"title": "WhatsApp"},
+                        "hi": {"title": "WhatsApp"},
+                        "ben": {"title": "হোয়াটসঅ্যাপ"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@MalayBhunia",
+                    "link": {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "hi": {"title": "LinkedIn"},
+                        "ben": {"title": "লিঙ্কডইন"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@MalayBhunia",
+                    "link": {"href": "https://github.com/MalayBhunia", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "Github"},
+                        "hi": {"title": "Github"},
+                        "ben": {"title": "Github"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-instagram",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@MalayBhunia",
+                    "link": {"href": "https://www.instagram.com/mb.cse/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "hi": {"title": "Instagram"},
+                        "ben": {"title": "ইনস্টাগ্রাম"}
+                    }
+                }
+            ]
+        }
+    ]
+}

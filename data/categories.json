@@ -1,0 +1,64 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": {
+                    "title": "Home"
+                },
+                "hi": {
+                    "title": "घर"
+                },
+                "ben": {
+                    "title": "বাড়ি"
+                }
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": {
+                    "title": "History"
+                },
+                "hi": {
+                    "title": "इतिहास"
+                },
+                "ben": {
+                    "title": "ইতিহাস"
+                }
+            }
+        },
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": {
+                    "title": "Showcase"
+                },
+                "hi": {
+                    "title": "शोकेस"
+                },
+                "ben": {
+                    "title": "শোকেস"
+                }
+            }
+        },
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": {
+                    "title": "More"
+                },
+                "hi": {
+                    "title": "अधिक"
+                },
+                "ben": {
+                    "title": "আরও"
+                }
+            }
+        }
+    ]
+}

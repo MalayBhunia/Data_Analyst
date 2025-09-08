@@ -1,0 +1,215 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Tech Stack}}"
+            },
+            "hi": {
+                "title_short": "टेक स्टैक",
+                "title_short_nav": "टेक स्टैक",
+                "title_long_prefix": "एक्सप्लोर करें",
+                "title_long": "मेरा {{टेक स्टैक}}"
+            },
+            "ben": {
+                "title_short": "টেক স্ট্যাক",
+                "title_short_nav": "টেক স্ট্যাক",
+                "title_long_prefix": "এক্সপ্লোর করুন",
+                "title_long": "আমার {{টেক স্ট্যাক}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_languages": "Languages",
+                    "category_tools": "Tools",
+                    "category_libraries": "Libraries",
+                    "category_databases": "Databases"  
+                },
+                "hi": {
+                    "category_all": "सभी",
+                    "category_languages": "भाषाएँ",
+                    "category_tools": "उपकरण",
+                    "category_libraries": "लाइब्रेरीज़",
+                    "category_databases": "डेटाबेस"
+                },
+                "ben": {
+                    "category_all": "সকল",
+                    "category_languages": "ভাষা",
+                    "category_tools": "টুল",
+                    "category_libraries": "লাইব্রেরি",
+                    "category_databases": "ডাটাবেস"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_languages", "category_tools", "category_libraries","category_databases"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_languages",
+                    "img": "images/svg/C1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "C" } }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_languages",
+                    "img": "images/svg/logo-cpp.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "C++" } }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": { "fill": "#306998" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Python" } }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": { "fill": "#007396" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Java" } }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": { "fill": "#f50a0a" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "HTML" } }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": { "fill": "#264de4" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "CSS" } }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_libraries",
+                    "img": "images/svg/numpy1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Numpy" } }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_libraries",
+                    "img": "images/svg/pandas1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Pandas" } }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_libraries",
+                    "img": "images/svg/matplot.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Matplotlib" } }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_databases",
+                    "img": "images/svg/my2.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "MySQL" } }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_databases",
+                    "img": "images/svg/po2.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "PostgreSQL" } }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_databases",
+                    "img": "images/svg/mongodb1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "MongoDB" } }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_databases",
+                    "img": "images/svg/sq4.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Sqlite3" } }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_frameworks",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DBFB", "fillLight": "#357c8f" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "React" } }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_languages",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "fill": "#f29111" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "SQL" } }
+                },
+                  {
+                    "id": 16,
+                    "categoryId": "category_tools",
+                    "img": "images/svg/Excel1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Excel" } }
+                },
+                {
+                    "id": 17,
+                    "categoryId": "category_tools",
+                    "img": "images/svg/power.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Power BI" } }
+                },
+                {
+                    "id": 18,
+                    "categoryId": "category_tools",
+                    "img": "images/svg/tab.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Tableau" } }
+                },
+                {
+                    "id": 19,
+                    "categoryId": "category_tools",
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": { "fill": "#c31313" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Git" } }
+                },
+                {
+                    "id": 20,
+                    "categoryId": "category_tools",
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": { "fill": "#da7210" },
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Github" } }
+                },
+                {
+                    "id": 21,
+                    "categoryId": "category_tools",
+                    "img": "images/svg/vs1.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "VScode" } }
+                }
+            ]
+        }
+    ]
+}
