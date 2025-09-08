@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/ppppp/',
+    base: '/Data_Analyst/',
     plugins: [react()],
     build: {
         rollupOptions: {
