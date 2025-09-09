@@ -54,6 +54,43 @@
                 {
                     "id": 1,
                     "categoryId": "category_data",
+                    "img": "images/svg/covid-19.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_powerbi-dataanalytics-covid19-activity-7370739502195179520-wrfj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Data_Analyst", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/svg/Covid-19 Dashboard1.png",
+                            "images/svg/Covid-19 Dashboard2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:16",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Covid-19 India Analysis Dashboard.",
+                            "text": "Developed an interactive Power BI dashboard analyzing COVID-19 data from Kaggle, featuring state-wise cases, recoveries, deaths, and vaccination insights. Applied DAX measures, KPIs, and dynamic filters to deliver actionable trends, enhancing data-driven decision-making.",
+                            "tags": [ "Power BI","Power Query","DAX", "Kaggle dataset"]
+                        },
+                        "hi": {
+                            "title": "कोविड-19 भारत विश्लेषण डैशबोर्ड।",
+                            "text": "कागल से प्राप्त कोविड-19 डेटा का विश्लेषण करते हुए एक इंटरैक्टिव पावर BI डैशबोर्ड विकसित किया गया, जिसमें राज्यवार मामले, ठीक होने वालों की संख्या, मृत्यु दर और टीकाकरण संबंधी जानकारी शामिल है। कार्रवाई योग्य रुझान प्रदान करने और डेटा-आधारित निर्णय लेने की क्षमता को बढ़ाने के लिए DAX माप, KPI और गतिशील फ़िल्टर लागू किए गए।",
+                            "tags": [ "पावर BI","पावर क्वेरी","DAX", "कागल डेटासेट"]
+                        },
+                        "ben": {
+                            "title": " কোভিড-১৯ ইন্ডিয়া অ্যানালাইসিস ড্যাশবোর্ড।",
+                            "text": "Kaggle থেকে COVID-19 ডেটা বিশ্লেষণ করে একটি ইন্টারেক্টিভ Power BI ড্যাশবোর্ড তৈরি করা হয়েছে, যেখানে রাজ্যভিত্তিক কেস, পুনরুদ্ধার, মৃত্যু এবং টিকাকরণের অন্তর্দৃষ্টি রয়েছে। কার্যকর প্রবণতা প্রদানের জন্য DAX পরিমাপ, KPI এবং গতিশীল ফিল্টার প্রয়োগ করা হয়েছে, যা ডেটা-চালিত সিদ্ধান্ত গ্রহণকে উন্নত করে।",
+                            "tags": ["পাওয়ার বিআই", "পাওয়ার কোয়েরি", "ড্যাক্স", "ক্যাগল ডেটাসেট"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_data",
                     "img": "images/svg/dashboard.webp",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
@@ -89,7 +126,7 @@
                 },
 
                 {
-                    "id": 2,
+                    "id": 3,
                     "categoryId": "category_data",
                     "img": "images/svg/biryani.png",
                     "preview": {
@@ -125,7 +162,7 @@
                 },
 
                 {
-                    "id": 3,
+                    "id": 4,
                     "categoryId": "category_data",
                     "img": "images/svg/weather_logo.png",
                     "faIcon": "",
@@ -161,7 +198,7 @@
                 },
 
                 {
-                    "id": 4,
+                    "id": 5,
                     "categoryId": "category_data",
                     "img": "images/svg/hostpital.png",
                     "faIcon": "",
@@ -197,7 +234,7 @@
                 },
 
                 {
-                    "id": 5,
+                    "id": 6,
                     "categoryId": "category_frontend",
                     "img": "images/svg/profile-picture.jpg",
                     "faIcon": "",
@@ -231,7 +268,7 @@
                 },
 
                 {
-                    "id": 6,
+                    "id": 7,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf3.png",
                     "faIcon": "",
@@ -265,7 +302,7 @@
                 },
 
                 {
-                    "id": 7,
+                    "id": 8,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf2.jpg",
                     "faIcon": "f",
@@ -298,7 +335,7 @@
                     }
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "categoryId": "category_backend",
                     "img": "images/svg/aca.jpg",
                     "faIcon": "",
@@ -331,7 +368,7 @@
                     }
                 },
                 {
-                    "id": 9,
+                    "id": 10,
                     "categoryId": "category_backend",
                     "img": "images/svg/login.jpg",
                     "faIcon": "",
@@ -364,7 +401,7 @@
                     }
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "categoryId": "category_backend",
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
