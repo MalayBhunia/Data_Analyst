@@ -46,10 +46,10 @@
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
-                    "id": 3,
+                     "id": 3,
                     "label": "@MalayBhunia",
-                    "link": {"href": "https://github.com/MalayBhunia", "tooltipString": "See_on_Github"},
-                    "faIcon": "fa-brands fa-github"
+                    "link": {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "tooltipString": "See on Linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
                 }
             ]
         },
