@@ -19,7 +19,7 @@
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
         "defaultLanguageId": "en",
-        "defaultThemeId": "dark",
+        "defaultThemeId": "midnight",
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": true
     },
