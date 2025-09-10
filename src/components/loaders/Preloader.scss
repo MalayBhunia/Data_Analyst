@@ -49,9 +49,11 @@ div.preloader-window-info-title {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(195, 4, 4);
 }
 
 div.preloader-window-info-developer {
     opacity: 0.5;
     text-align: center;
+    color: red;
 }
