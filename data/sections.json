@@ -32,13 +32,13 @@
         },
         {
             "id": "freelancing",
-            "categoryId": "showcase",
+            "categoryId": "more",
             "jsonPath": "/data/sections/freelancing.json",
             "faIcon": "fa-solid fa-laptop-code"
         },
         {
             "id": "updates",
-            "categoryId": "more",
+            "categoryId": "showcase",
             "jsonPath": "/data/sections/updates.json",
             "faIcon": "fa-solid fa-rss"
         },
