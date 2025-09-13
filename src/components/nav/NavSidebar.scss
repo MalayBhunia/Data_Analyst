@@ -1,7 +1,7 @@
 @import "/src/styles/extend.scss";
 
 nav.nav-sidebar {
-    --width: 260px;
+    --width: 250px;
 
     display: flex;
     z-index: $z-index-sidebar;
