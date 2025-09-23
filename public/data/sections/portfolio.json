@@ -52,6 +52,46 @@
             },
             "items": [
                 {
+                    "id": 0,
+                    "categoryId": "category_data",
+                    "img": "images/svg/images(4).png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_powerbi-dataanalytics-elections2024-activity-7376246800996970497-x7wd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/India-General-Election-Results-2024", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/svg/Overview page.png",
+                            "images/svg/State Demographic page.png",
+                            "images/svg/State analysis page.png",
+                            "images/svg/Constituency Analysis page.png",
+                            "images/svg/Grid page.png"
+                        ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "India General Election Results - 2024",
+                            "text": "Developed an interactive Power BI Election Dashboard showcasing region-wise results, candidate performance, and voter turnout. Applied DAX measures, slicers, and dynamic visuals for party and demographic comparisons. Delivered drill-down analysis, KPIs, and real-time insights enhancing decision-making",
+                            "tags": [ "Power BI", "KPIs", "DAX", "Kaggle dataset"]
+                        },
+                        "hi": {
+                            "title": "भारत आम चुनाव परिणाम - 2024",
+                            "text": "क्षेत्रवार परिणाम, उम्मीदवारों का प्रदर्शन और मतदाता मतदान को प्रदर्शित करने वाला एक इंटरैक्टिव पावर BI चुनाव डैशबोर्ड विकसित किया। पार्टी और जनसांख्यिकीय तुलना के लिए DAX माप, स्लाइसर और गतिशील विज़ुअल लागू किए। निर्णय लेने में सुधार के लिए ड्रिल-डाउन विश्लेषण, KPI और रीयल-टाइम अंतर्दृष्टि प्रदान की",
+                            "tags": [ "पावर BI", "KPI", "DAX", "Kaggle डेटासेट"]
+                        },
+                        "ben": {
+                            "title": "ভারতের সাধারণ নির্বাচনের ফলাফল - ২০২৪",
+                            "text": "অঞ্চলভিত্তিক ফলাফল, প্রার্থীর কর্মক্ষমতা এবং ভোটারদের উপস্থিতি প্রদর্শন করে একটি ইন্টারেক্টিভ পাওয়ার বিআই নির্বাচন ড্যাশবোর্ড তৈরি করা হয়েছে। দল এবং জনসংখ্যার তুলনার জন্য প্রয়োগ করা DAX পরিমাপ, স্লাইসার এবং গতিশীল ভিজ্যুয়াল। সিদ্ধান্ত গ্রহণকে উন্নত করে ড্রিল-ডাউন বিশ্লেষণ, KPI এবং রিয়েল-টাইম অন্তর্দৃষ্টি প্রদান করা হয়েছে",
+                            "tags": [ "পাওয়ার বিআই", "কেপিআই", "ডিএএক্স", "ক্যাগল ডেটাসেট"]
+                        }
+                        
+                    }
+                },
+                {
                     "id": 1,
                     "categoryId": "category_data",
                     "img": "images/svg/covid-19.png",
