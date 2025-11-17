@@ -51,8 +51,42 @@
                 "order_items_sort": "asc"
             },
             "items": [
+                 {
+                   "id": 1,
+                    "categoryId": "category_data",
+                    "img": "images/svg/crime_logo1.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_dataanalytics-python-crimeanalysis-activity-7394409067223457792-E-MP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Crime Dataset Analysis in India",
+                            "text": "Performed in-depth analysis and visualization of Indian crime data (2014–2024) using Python to identify year-wise patterns, regional trends, and correlations, providing valuable insights to support data-driven decision-making, public safety improvements, and policy formulation. Used Python libraries: pandas, numpy, matplotlib, seaborn, and warnings.",
+                            "tags": [ "pandas", "numpy", "matplotlib", "seaborn"]
+                        },
+                        "hi": {
+                            "title": "भारत में अपराध डेटासेट विश्लेषण",
+                            "text": "वर्षवार पैटर्न, क्षेत्रीय रुझान और सहसंबंधों की पहचान करने के लिए पायथन का उपयोग करके भारतीय अपराध डेटा (2014-2024) का गहन विश्लेषण और विज़ुअलाइज़ेशन किया गया, जिससे डेटा-आधारित निर्णय लेने, सार्वजनिक सुरक्षा में सुधार और नीति निर्माण में सहायता के लिए बहुमूल्य अंतर्दृष्टि प्राप्त हुई। पायथन लाइब्रेरीज़ का उपयोग किया गया: पांडा, न्यूम्पी, मैटप्लॉटलिब, सीबॉर्न और चेतावनियाँ।",
+                            "tags": [ "पांडा", "न्यूम्पी", "मैटप्लॉटलिब", "सीबॉर्न"]},
+                        "ben": {
+                            "title": "ভারতে অপরাধ ডেটাসেট বিশ্লেষণ",
+                            "text": "পাঠ্য বছরভিত্তিক ধরণ, আঞ্চলিক প্রবণতা এবং পারস্পরিক সম্পর্ক সনাক্ত করতে পাইথন ব্যবহার করে ভারতীয় অপরাধ তথ্যের (২০১৪-২০২৪) গভীর বিশ্লেষণ এবং ভিজ্যুয়ালাইজেশন করা হয়েছে, যা ডেটা-চালিত সিদ্ধান্ত গ্রহণ, জননিরাপত্তা উন্নতি এবং নীতি প্রণয়নে সহায়তা করার জন্য মূল্যবান অন্তর্দৃষ্টি প্রদান করে। ব্যবহৃত পাইথন লাইব্রেরি: পান্ডা, নম্পি, ম্যাটপ্লটলিব, সিবর্ন এবং সতর্কতা।",
+                            "tags": [ "পান্ডা", "নম্পি", "ম্যাটপ্লটলিব", "সিবর্ন"]
+                        }
+                        
+                    }
+                },
                 {
-                    "id": 0,
+                    "id": 2,
                     "categoryId": "category_data",
                     "img": "images/svg/images(4).png",
                     "faIcon": "",
@@ -92,7 +126,7 @@
                     }
                 },
                 {
-                    "id": 1,
+                    "id": 3,
                     "categoryId": "category_data",
                     "img": "images/svg/covid-19.png",
                     "faIcon": "",
@@ -129,7 +163,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 4,
                     "categoryId": "category_data",
                     "img": "images/svg/dashboard.webp",
                     "faIcon": "",
@@ -166,7 +200,7 @@
                 },
 
                 {
-                    "id": 3,
+                    "id": 5,
                     "categoryId": "category_data",
                     "img": "images/svg/biryani.png",
                     "preview": {
@@ -202,7 +236,7 @@
                 },
 
                 {
-                    "id": 4,
+                    "id": 6,
                     "categoryId": "category_data",
                     "img": "images/svg/weather_logo.png",
                     "faIcon": "",
@@ -238,7 +272,7 @@
                 },
 
                 {
-                    "id": 5,
+                    "id": 7,
                     "categoryId": "category_data",
                     "img": "images/svg/hostpital.png",
                     "faIcon": "",
@@ -274,7 +308,7 @@
                 },
 
                 {
-                    "id": 6,
+                    "id": 8,
                     "categoryId": "category_frontend",
                     "img": "images/svg/profile-picture.jpg",
                     "faIcon": "",
@@ -308,7 +342,7 @@
                 },
 
                 {
-                    "id": 7,
+                    "id": 9,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf3.png",
                     "faIcon": "",
@@ -342,7 +376,7 @@
                 },
 
                 {
-                    "id": 8,
+                    "id": 10,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf2.jpg",
                     "faIcon": "f",
@@ -375,7 +409,7 @@
                     }
                 },
                 {
-                    "id": 9,
+                    "id": 11,
                     "categoryId": "category_backend",
                     "img": "images/svg/aca.jpg",
                     "faIcon": "",
@@ -408,7 +442,7 @@
                     }
                 },
                 {
-                    "id": 10,
+                    "id": 12,
                     "categoryId": "category_backend",
                     "img": "images/svg/login.jpg",
                     "faIcon": "",
@@ -441,7 +475,7 @@
                     }
                 },
                 {
-                    "id": 11,
+                    "id": 13,
                     "categoryId": "category_backend",
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
