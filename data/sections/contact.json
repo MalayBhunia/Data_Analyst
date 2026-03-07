@@ -139,6 +139,33 @@
                     }
                 }
             ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleText",
+            "config": {},
+            "locales": {
+                "en": {"title": "Support my {{work}}"},
+                "hi": {"title": "मेरे {{कार्य}} का समर्थन करें"},
+                "ben": {"title": "আমার {{কাজ}} সমর্থন করুন"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/svg/coffee3.svg",
+                    "locales": {
+                        "en": {
+                            "text": "<p>If you find my open-source work helpful or enjoy browsing through my portfolio, please consider supporting my work with a coffee!</p><p>Your support helps me continue developing and maintaining projects that benefit the community and help me create more useful resources for developers.</p><p class='cta-wrapper'><a href='https://github.com/sponsors/MalayBhunia' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot fa-xl'></i>&nbsp;&nbsp;<span style='font-size:16px;'>Buy Me a Coffee</span></a></p>"
+                        },
+                        "hi": {
+                            "text": "<p>यदि आपको मेरा ओपन-सोर्स काम उपयोगी लगता है या मेरा पोरटफोलियो देखना पसंद आता है, तो कृपया एक कॉफी देकर मेरे काम को समर्थन देने पर विचार करें।</p><p>आपका समर्थन मुझे ऐसे प्रोजेक्ट्स को विकसित और बनाए रखने में मदद करता है जो कम्युनिटी के लिए लाभदायक हैं और डेवलपर्स के लिए और भी उपयोगी संसाधन बनाने में सहायता करते हैं।</p><p class='cta-wrapper'><a href='https://github.com/sponsors/MalayBhunia' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot fa-xl'></i>&nbsp;&nbsp;<span style='font-size:16px;'>Buy Me a Coffee</span></a></p>"
+                        },
+                        "ben": {
+                            "text": "<p>আপনি যদি আমার ওপেন-সোর্স কাজকে উপকারী মনে করেন বা আমার পোর্টফোলিও দেখতে উপভোগ করেন, তাহলে দয়া করে একটি কফি দিয়ে আমার কাজকে সমর্থন করার কথা বিবেচনা করুন।</p><p>আপনার সমর্থন আমাকে এমন প্রকল্প তৈরি ও রক্ষণাবেক্ষণ চালিয়ে যেতে সাহায্য করে, যা কমিউনিটির জন্য উপকারী এবং ডেভেলপারদের জন্য আরও কার্যকর রিসোর্স তৈরি করতে সহায়তা করে।</p><p class='cta-wrapper'><a href='https://github.com/sponsors/MalayBhunia' target='_blank' rel='noopener noreferrer' class='cta-button-primary'><i class='fa-solid fa-mug-hot fa-xl'></i>&nbsp;&nbsp;<span style='font-size:16px;'>Buy Me a Coffee</span></a></p>"
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
