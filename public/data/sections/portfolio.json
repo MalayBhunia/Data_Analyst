@@ -51,8 +51,246 @@
                 "order_items_sort": "asc"
             },
             "items": [
-                 {
-                   "id": 1,
+                {
+                    "id": 0,
+                    "categoryId": "category_data",
+                    "img": "images/flags/apple-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_apple-retail-sales-analysis-using-sql-activity-7435007160377434112-7jDO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Apple-Retail-Sales-Analysis-Using-SQL", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Apple Retail Sales Analysis Using SQL",
+                            "text": "This project analyzes over 1 million rows of Apple retail sales data using advanced SQL queries. It explores products, stores, transactions, and warranty claims to generate insights and demonstrate strong SQL skills through solving analytical questions from basic to complex.",
+                            "tags": [ "SQL", "PostgreSQL", "CTEs", "Window Functions"]
+                        },
+                        "hi": {
+                            "title": "SQL का उपयोग करके Apple की खुदरा बिक्री का विश्लेषण",
+                            "text": "इस प्रोजेक्ट में 1 मिलियन से अधिक Apple रिटेल सेल्स डेटा का उन्नत SQL क्वेरी के माध्यम से विश्लेषण किया गया है। इसमें प्रोडक्ट, स्टोर, सेल्स ट्रांजैक्शन और वारंटी क्लेम का अध्ययन कर महत्वपूर्ण इनसाइट प्राप्त किए गए हैं।",
+                            "tags": [ "SQL", "PostgreSQL", "CTEs", "विंडो फ़ंक्शन"]},
+                        "ben": {
+                            "title": "SQL ব্যবহার করে অ্যাপল খুচরা বিক্রয় বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে ১ মিলিয়নের বেশি Apple রিটেইল সেলস ডেটা উন্নত SQL কুয়েরি ব্যবহার করে বিশ্লেষণ করা হয়েছে। এখানে প্রোডাক্ট, স্টোর, সেলস ট্রানজ্যাকশন এবং ওয়ারেন্টি ক্লেইম বিশ্লেষণ করে বিভিন্ন প্রশ্নের মাধ্যমে গুরুত্বপূর্ণ ইনসাইট বের করা হয়েছে।",
+                            "tags": ["SQL", "PostgreSQL", "CTEs", "উইন্ডো ফাংশন"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 1,
+                    "categoryId": "category_data",
+                    "img": "images/flags/naukri-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_datascience-webscraping-python-activity-7424388417674743809-TPIC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Naukri-Jobs-Data-Analysis-Using-Web-Scraping", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Naukri Jobs Data Analysis Using Web Scraping ",
+                            "text": "This project analyzes the Indian job market for data professionals including Data Science, Engineering, and Analytics. It uses a web scraping engine to collect dynamic job data and a data engineering pipeline to transform unstructured information into meaningful insights.",
+                            "tags": [ "Python", "Selenium", "seaborn", "Regex", "SQL"]
+                        },
+                        "hi": {
+                            "title": "वेब स्क्रैपिंग का उपयोग करके नौकरी के लिए डेटा विश्लेषण",
+                            "text": "इस प्रोजेक्ट में भारत के डेटा प्रोफेशनल्स (Data Science, Engineering, Analytics) के जॉब मार्केट का विश्लेषण किया गया है। इसमें डायनामिक जॉब डेटा एकत्र करने के लिए Web Scraping और असंगठित डेटा को इनसाइट में बदलने के लिए Data Engineering पाइपलाइन का उपयोग किया गया है।",
+                            "tags": [ "पायथन", "सेलेनियम", "सीबॉर्न", "रेगेक्स", "एसक्यूएल"]},
+                        "ben": {
+                            "title": "ওয়েব স্ক্র্যাপিং ব্যবহার করে চাকরির ডেটা বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে ভারতের ডাটা প্রফেশনালদের (Data Science, Engineering, Analytics) চাকরির বাজার বিশ্লেষণ করা হয়েছে। এতে ডায়নামিক জব ডেটা সংগ্রহের জন্য Web Scraping ব্যবহার করা হয়েছে এবং Data Engineering pipeline এর মাধ্যমে অগোছালো ডেটাকে ইনসাইটে রূপান্তর করা হয়েছে।",
+                            "tags": [ "পাইথন", "সেলেনিয়াম", "সিবর্ন", "রেজেক্স", "এসকিউএল"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_data",
+                    "img": "images/flags/linkedin-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_dataanalysis-python-eda-activity-7408519962790682624-uhuh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Linkedin_Jobs_Data_Analysis", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Linkedin Jobs Data Analysis",
+                            "text": "This project performs exploratory data analysis (EDA) on LinkedIn job postings in the Indian market. By analyzing around 950 listings, it reveals trends in job roles, required experience levels, industry sectors, and the geographical distribution of data-related opportunities across India.",
+                            "tags": [ "pandas", "numpy", "seaborn", "Jupyter Notebook", "EDA"]
+                        },
+                        "hi": {
+                            "title": "लिंक्डइन जॉब्स डेटा विश्लेषण",
+                            "text": "इस प्रोजेक्ट में भारत के LinkedIn जॉब पोस्टिंग्स पर Exploratory Data Analysis (EDA) किया गया है। लगभग 950 जॉब लिस्टिंग का विश्लेषण करके जॉब रोल, अनुभव स्तर, इंडस्ट्री सेक्टर और भारत में अवसरों के भौगोलिक वितरण के प्रमुख ट्रेंड सामने लाए गए हैं।",
+                            "tags": [ "पांडा", "नम्पी", "सीबॉर्न", "ज्यूपिटर नोटबुक", "ईडीए"]},
+                        "ben": {
+                            "title": "লিঙ্কডইন জবস ডেটা বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে ভারতের LinkedIn জব পোস্টিংগুলোর উপর Exploratory Data Analysis (EDA) করা হয়েছে। প্রায় ৯৫০টি জব লিস্টিং বিশ্লেষণ করে জব রোল, অভিজ্ঞতার স্তর, ইন্ডাস্ট্রি সেক্টর এবং ভারতের বিভিন্ন অঞ্চলে সুযোগের বণ্টন সম্পর্কে গুরুত্বপূর্ণ ট্রেন্ড বের করা হয়েছে।",
+                            "tags": [ "পান্ডাস", "নাম্পি", "সিবোর্ন", "জুপিটার নোটবুক", "EDA"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_data",
+                    "img": "images/flags/ai-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_ai-finance-datascience-activity-7391323746982096896-Doqg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/AI-Financial-Market-Analysis", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI Financial Market Analysis",
+                            "text": "This project analyzes the financial impact and research investments of major AI companies—Google, Meta, and OpenAI. Using a decade-long synthetic dataset (2015–2024), it examines how R&D spending influences AI revenue growth and stock market volatility.",
+                            "tags": [ "pandas", "numpy", "matplotlib", "seaborn"]
+                        },
+                        "hi": {
+                            "title": "एआई वित्तीय बाजार विश्लेषण",
+                            "text": "इस प्रोजेक्ट में प्रमुख AI कंपनियों Google, Meta और OpenAI के वित्तीय प्रभाव और शोध निवेश का विश्लेषण किया गया है। 2015–2024 के सिंथेटिक डेटासेट का उपयोग करके R&D खर्च, AI रेवेन्यू वृद्धि और स्टॉक मार्केट अस्थिरता के बीच संबंध का अध्ययन किया गया है।",
+                            "tags": [ "पांडा", "न्यूम्पी", "मैटप्लॉटलिब", "सीबॉर्न"]},
+                        "ben": {
+                            "title": "এআই আর্থিক বাজার বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে শীর্ষ AI কোম্পানি Google, Meta এবং OpenAI-এর আর্থিক প্রভাব ও গবেষণা বিনিয়োগ বিশ্লেষণ করা হয়েছে। ২০১৫–২০২৪ সালের একটি সিন্থেটিক ডেটাসেট ব্যবহার করে R&D ব্যয়, AI রেভিনিউ বৃদ্ধি এবং স্টক মার্কেট ভোলাটিলিটির সম্পর্ক পরীক্ষা করা হয়েছে।",
+                            "tags": [ "পান্ডা", "নম্পি", "ম্যাটপ্লটলিব", "সিবর্ন"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_data",
+                    "img": "images/flags/customer-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_dataanalytics-python-sql-activity-7409652674662412289-nTZa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Customer-Shopping-Behavior", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Customer Shopping Behavior Analysis",
+                            "text": "This project analyzes customer shopping behavior to identify purchasing patterns, preferences, and spending habits. It follows an end-to-end analytics workflow including data cleaning, exploratory analysis, SQL-based insights, and interactive dashboard visualization to transform raw data into meaningful business insights.",
+                            "tags": [ "python", "EDA", "PostgreSQL", "Power BI"]
+                        },
+                        "hi": {
+                            "title": "ग्राहक खरीदारी व्यवहार विश्लेषण",
+                            "text": "इस प्रोजेक्ट में ग्राहकों के शॉपिंग व्यवहार का विश्लेषण किया गया है ताकि खरीदारी पैटर्न, पसंद और खर्च की आदतों को समझा जा सके। इसमें डेटा क्लीनिंग, एक्सप्लोरेटरी एनालिसिस, SQL-आधारित इनसाइट्स और इंटरैक्टिव डैशबोर्ड विज़ुअलाइज़ेशन सहित एंड-टू-एंड डेटा एनालिटिक्स प्रक्रिया अपनाई गई है।",
+                            "tags": [ "पायथन", "ईडीए", "पोस्टग्रेएसक्यूएल", "पावर बीआई"]},
+                        "ben": {
+                            "title": "গ্রাহক কেনাকাটা আচরণ বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে গ্রাহকদের শপিং আচরণ বিশ্লেষণ করে কেনাকাটার ধরণ, পছন্দ এবং খরচের অভ্যাস সম্পর্কে গুরুত্বপূর্ণ ইনসাইট বের করা হয়েছে। এতে ডেটা ক্লিনিং, এক্সপ্লোরেশন, SQL বিশ্লেষণ এবং ইন্টারেক্টিভ ড্যাশবোর্ড ভিজুয়ালাইজেশনসহ সম্পূর্ণ ডেটা অ্যানালিটিক্স প্রক্রিয়া অনুসরণ করা হয়েছে।",
+                            "tags": ["পাইথন", "ইডিএ", "পোস্টগ্রেএসকিউএল", "পাওয়ার বিআই"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_data",
+                    "img": "images/flags/flipkart-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/posts/malay-bhunia-14ab712a6_dataanalytics-sql-python-activity-7415731753522294784-eRgP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEna4ooBGYY5yVd98gM_2RY41HD0-qcKn48", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia/Flipkart-Sales-Data-Analysis", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flipkart Sales Data Analysis",
+                            "text": "This project analyzes over 80,000 Flipkart product listings through an end-to-end data engineering and analytics workflow. It includes data cleaning with Python, advanced analytical queries in PostgreSQL, and interactive business intelligence dashboards built using Power BI.",
+                            "tags": [ "python", "SQLAlchemy", "PostgreSQL", "power BI"]
+                        },
+                        "hi": {
+                            "title": "फ्लिपकार्ट बिक्री डेटा विश्लेषण",
+                            "text": "इस प्रोजेक्ट में 80,000 से अधिक Flipkart प्रोडक्ट लिस्टिंग का एंड-टू-एंड डेटा इंजीनियरिंग और एनालिटिक्स प्रक्रिया के माध्यम से विश्लेषण किया गया है। इसमें Python से डेटा क्लीनिंग, PostgreSQL में विश्लेषणात्मक क्वेरी और Power BI में इंटरैक्टिव डैशबोर्ड शामिल हैं।",
+                            "tags": [ "पायथन", "एसक्यूएलएल्केमी", "पोस्टग्रेएसक्यूएल", "पावर बीआई"]},
+                        "ben": {
+                            "title": "ফ্লিপকার্ট বিক্রয় ডেটা বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে ৮০,০০০-এর বেশি Flipkart প্রোডাক্ট লিস্টিং বিশ্লেষণ করা হয়েছে একটি সম্পূর্ণ ডেটা ইঞ্জিনিয়ারিং ও অ্যানালিটিক্স প্রক্রিয়ার মাধ্যমে। এতে Python দিয়ে ডেটা ক্লিনিং, PostgreSQL-এ বিশ্লেষণাত্মক কুয়েরি এবং Power BI-তে ইন্টারেক্টিভ ড্যাশবোর্ড তৈরি করা হয়েছে।",
+                            "tags": [ "পাইথন", "SQLAlchemy", "পোস্টগ্রেএসকিউএল", "পাওয়ার BI"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_data",
+                    "img": "images/flags/Athlete-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Athlete Events Data Analysis",
+                            "text": "This project analyzes athlete events data to uncover trends in sports performance, participation, and medal distribution. Using data analytics techniques, it explores athlete demographics, countries’ performance, and historical event patterns to generate meaningful insights through data exploration and visualization.",
+                            "tags": [ "pandas", "numpy", "matplotlib", "seaborn"]
+                        },
+                        "hi": {
+                            "title": "एथलीट इवेंट्स डेटा विश्लेषण",
+                            "text": "इस प्रोजेक्ट में एथलीट इवेंट्स डेटा का विश्लेषण करके खेल प्रदर्शन, भागीदारी और मेडल वितरण के रुझानों को समझा गया है। डेटा एनालिटिक्स तकनीकों की मदद से एथलीट डेमोग्राफिक्स, देशों के प्रदर्शन और ऐतिहासिक इवेंट पैटर्न का अध्ययन किया गया है।",
+                            "tags": [ "पांडा", "न्यूम्पी", "मैटप्लॉटलिब", "सीबॉर्न"]},
+                        "ben": {
+                            "title": "ক্রীড়াবিদ ইভেন্ট ডেটা বিশ্লেষণ",
+                            "text": "এই প্রজেক্টে Athlete Events ডেটা বিশ্লেষণ করে খেলোয়াড়দের পারফরম্যান্স, অংশগ্রহণ এবং মেডেল বণ্টনের ধরণ বোঝার চেষ্টা করা হয়েছে। ডেটা অ্যানালিটিক্সের মাধ্যমে অ্যাথলেটদের ডেমোগ্রাফিক্স, বিভিন্ন দেশের পারফরম্যান্স এবং ঐতিহাসিক ইভেন্ট ট্রেন্ড বিশ্লেষণ করা হয়েছে।",
+                            "tags": [ "পান্ডা", "নম্পি", "ম্যাটপ্লটলিব", "সিবর্ন"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 7,
                     "categoryId": "category_data",
                     "img": "images/svg/crime_logo1.jpg",
                     "faIcon": "",
@@ -86,7 +324,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 8,
                     "categoryId": "category_data",
                     "img": "images/svg/images(4).png",
                     "faIcon": "",
@@ -126,7 +364,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 9,
                     "categoryId": "category_data",
                     "img": "images/svg/covid-19.png",
                     "faIcon": "",
@@ -163,7 +401,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 10,
                     "categoryId": "category_data",
                     "img": "images/svg/dashboard.webp",
                     "faIcon": "",
@@ -200,7 +438,7 @@
                 },
 
                 {
-                    "id": 5,
+                    "id": 11,
                     "categoryId": "category_data",
                     "img": "images/svg/biryani.png",
                     "preview": {
@@ -236,7 +474,7 @@
                 },
 
                 {
-                    "id": 6,
+                    "id": 12,
                     "categoryId": "category_data",
                     "img": "images/svg/weather_logo.png",
                     "faIcon": "",
@@ -272,7 +510,7 @@
                 },
 
                 {
-                    "id": 7,
+                    "id": 13,
                     "categoryId": "category_data",
                     "img": "images/svg/hostpital.png",
                     "faIcon": "",
@@ -308,14 +546,14 @@
                 },
 
                 {
-                    "id": 8,
+                    "id": 14,
                     "categoryId": "category_frontend",
                     "img": "images/svg/profile-picture.jpg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
                     "preview": {
                         "links": [
-                            {"href": "", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-steam"}
+                            {"href": "https://malaybhunia.github.io/Data_Analyst/", "tooltipString": "see_on_website", "faIcon": "fa-brands fa-steam"}
                         ],
                         "screenshots": [
                         ],
@@ -342,7 +580,7 @@
                 },
 
                 {
-                    "id": 9,
+                    "id": 15,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf3.png",
                     "faIcon": "",
@@ -376,7 +614,7 @@
                 },
 
                 {
-                    "id": 10,
+                    "id": 16,
                     "categoryId": "category_frontend",
                     "img": "images/svg/pf2.jpg",
                     "faIcon": "f",
@@ -409,7 +647,7 @@
                     }
                 },
                 {
-                    "id": 11,
+                    "id": 17,
                     "categoryId": "category_backend",
                     "img": "images/svg/aca.jpg",
                     "faIcon": "",
@@ -442,7 +680,7 @@
                     }
                 },
                 {
-                    "id": 12,
+                    "id": 18,
                     "categoryId": "category_backend",
                     "img": "images/svg/login.jpg",
                     "faIcon": "",
@@ -475,7 +713,7 @@
                     }
                 },
                 {
-                    "id": 13,
+                    "id": 19,
                     "categoryId": "category_backend",
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
@@ -505,6 +743,144 @@
                             "text": "পাইথন, স্পিচরিকগনিশন এবং পাইটসএক্স৩ দিয়ে তৈরি স্মার্ট ক্যালকুলেটরটি ৩৫+ গাণিতিক গণনা সমর্থন করে। এটি ভয়েস কমান্ড গ্রহণ করে, ইনপুট প্রক্রিয়া করে এবং কথ্য ফলাফল প্রদান করে, যা হ্যান্ডস-ফ্রি এবং ইন্টারেক্টিভ কম্পিউটিং অভিজ্ঞতা প্রদান করে।",
                             "tags": ["পাইথন", "স্পিচ_রিকগনিশন", "পাইটসএক্স৩"]
                         }
+                    }
+                },
+                {
+                    "id": 20,
+                    "categoryId": "category_data",
+                    "img": "images/flags/flight-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flights Data Analysis",
+                            "text": "Analyzed flight data using Python libraries in a Jupyter Notebook to uncover travel patterns, delays, and performance trends. Applied data cleaning, visualization, and exploratory data analysis techniques to generate insights that support better decision-making in airline operations.",
+                            "tags": [ "pandas", "numpy", "seaborn","Jupyter Notebook"]
+                        },
+                        "hi": {
+                            "title": "उड़ानें डेटा विश्लेषण",
+                            "text": "Python लाइब्रेरी और Jupyter Notebook का उपयोग करके फ्लाइट डेटा का विश्लेषण किया गया। डेटा क्लीनिंग, विज़ुअलाइज़ेशन और एक्सप्लोरेटरी डेटा एनालिसिस के माध्यम से फ्लाइट ट्रेंड, देरी के पैटर्न और प्रदर्शन से जुड़े महत्वपूर्ण इनसाइट प्राप्त किए गए।",
+                            "tags": ["पांडा", "नम्पी", "सीबॉर्न", "जुपिटर नोटबुक"]
+                        },
+                        "ben": {
+                            "title": "ফ্লাইট ডেটা বিশ্লেষণ",
+                            "text": "Jupyter Notebook এবং Python লাইব্রেরি ব্যবহার করে ফ্লাইট ডেটা বিশ্লেষণ করা হয়েছে। ডেটা ক্লিনিং, ভিজ্যুয়ালাইজেশন এবং এক্সপ্লোরেটরি ডেটা অ্যানালাইসিসের মাধ্যমে ফ্লাইট ট্রেন্ড, ডিলে প্যাটার্ন এবং পারফরম্যান্স সম্পর্কে গুরুত্বপূর্ণ ইনসাইট বের করা হয়েছে।",
+                            "tags": [ "পান্ডাস", "নাম্পি", "সিবর্ন", "জুপিটার নোটবুক"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 21,
+                    "categoryId": "category_data",
+                    "img": "images/flags/dewali-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Diwali Sales Analysis",
+                            "text": "Analyzed Diwali sales dataset using Python in Jupyter Notebook to uncover customer purchasing patterns, product performance, and sales trends. Applied data cleaning, visualization, and exploratory data analysis techniques to generate meaningful business insights.",
+                            "tags": [ "pandas", "numpy", "matplotlib", "seaborn"]
+                        },
+                        "hi": {
+                            "title": "दिवाली बिक्री विश्लेषण",
+                            "text": "Python और Jupyter Notebook का उपयोग करके Diwali sales dataset का विश्लेषण किया गया। डेटा क्लीनिंग, विज़ुअलाइज़ेशन और एक्सप्लोरेटरी डेटा एनालिसिस के माध्यम से ग्राहकों के खरीद व्यवहार, उत्पाद प्रदर्शन और बिक्री के ट्रेंड से जुड़े महत्वपूर्ण इनसाइट प्राप्त किए गए।",
+                            "tags": ["पांडा", "नम्पी", "सीबॉर्न", "जुपिटर नोटबुक"]},
+                        "ben": {
+                            "title": "দিওয়ালি বিক্রয় বিশ্লেষণ",
+                            "text": "Python এবং Jupyter Notebook ব্যবহার করে Diwali sales dataset বিশ্লেষণ করা হয়েছে। ডেটা ক্লিনিং, ভিজ্যুয়ালাইজেশন এবং এক্সপ্লোরেটরি ডেটা অ্যানালাইসিসের মাধ্যমে গ্রাহকের ক্রয় আচরণ, পণ্যের পারফরম্যান্স এবং বিক্রির ট্রেন্ড সম্পর্কে গুরুত্বপূর্ণ ইনসাইট পাওয়া গেছে।",
+                            "tags": [ "পান্ডাস", "নাম্পি", "সিবর্ন", "জুপিটার নোটবুক"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 22,
+                    "categoryId": "category_data",
+                    "img": "images/flags/Ecommerce-logo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ecommerce Purchases analysis",
+                            "text": "Analyzed e-commerce purchase data using Python and Jupyter Notebook to identify customer behavior, purchasing patterns, and sales trends. Performed data cleaning, visualization, and exploratory data analysis to extract valuable insights for better business decisions.",
+                            "tags": [ "pandas", "numpy", "matplotlib", "seaborn"]
+                        },
+                        "hi": {
+                            "title": "ईकॉमर्स खरीदारी विश्लेषण",
+                            "text": "Python और Jupyter Notebook का उपयोग करके e-commerce purchase डेटा का विश्लेषण किया गया। डेटा क्लीनिंग, विज़ुअलाइज़ेशन और एक्सप्लोरेटरी डेटा एनालिसिस के माध्यम से ग्राहक व्यवहार, खरीद पैटर्न और बिक्री के ट्रेंड से जुड़े महत्वपूर्ण इनसाइट प्राप्त किए गए।",
+                            "tags": [ "पांडा", "न्यूम्पी", "मैटप्लॉटलिब", "सीबॉर्न"]
+                        },
+                        "ben": {
+                            "title": "ই-কমার্স ক্রয় বিশ্লেষণ",
+                            "text": "Python এবং Jupyter Notebook ব্যবহার করে e-commerce purchase ডেটা বিশ্লেষণ করা হয়েছে। ডেটা ক্লিনিং, ভিজ্যুয়ালাইজেশন এবং এক্সপ্লোরেটরি ডেটা অ্যানালাইসিসের মাধ্যমে গ্রাহকের ক্রয় আচরণ, কেনাকাটার প্যাটার্ন এবং বিক্রির ট্রেন্ড সম্পর্কে গুরুত্বপূর্ণ ইনসাইট পাওয়া গেছে।",
+                            "tags": [ "পান্ডা", "নম্পি", "ম্যাটপ্লটলিব", "সিবর্ন"]
+                        }
+                        
+                    }
+                },
+                {
+                    "id": 23,
+                    "categoryId": "category_data",
+                    "img": "images/flags/SF-city-logo.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.linkedin.com/in/malay-bhunia-14ab712a6/", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"},
+                            {"href": "https://github.com/MalayBhunia", "tooltipString": "see_on_Github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            ],
+                        "screenshotsAspectRatio": "16:8",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SF city emp Salaries analysis",
+                            "text": "Analyzed San Francisco city employee salary dataset using Python and Jupyter Notebook to understand salary distribution, department-wise earnings, and compensation trends. Applied data cleaning, visualization, and exploratory data analysis to uncover meaningful workforce insights.",
+                            "tags": [ "pandas", "numpy", "seaborn", "Jupyter Notebook"]
+                        },
+                        "hi": {
+                            "title": "सैन फ्रांसिस्को शहर में कर्मचारियों के वेतन का विश्लेषण",
+                            "text": "Python और Jupyter Notebook का उपयोग करके San Francisco city employee salary dataset का विश्लेषण किया गया। डेटा क्लीनिंग, विज़ुअलाइज़ेशन और एक्सप्लोरेटरी डेटा एनालिसिस के माध्यम से वेतन वितरण, विभाग अनुसार आय और सैलरी ट्रेंड से जुड़े महत्वपूर्ण इनसाइट प्राप्त किए गए।",
+                            "tags": [ "पांडा", "नम्पी", "सीबॉर्न", "जुपिटर नोटबुक"]},
+                        "ben": {
+                            "title": "এসএফ সিটির কর্মচারীদের বেতন বিশ্লেষণ",
+                            "text": "Python এবং Jupyter Notebook ব্যবহার করে San Francisco city employee salary dataset বিশ্লেষণ করা হয়েছে। ডেটা ক্লিনিং, ভিজ্যুয়ালাইজেশন এবং এক্সপ্লোরেটরি ডেটা অ্যানালাইসিসের মাধ্যমে বেতন বণ্টন, বিভাগভিত্তিক আয় এবং বেতন ট্রেন্ড সম্পর্কে গুরুত্বপূর্ণ ইনসাইট পাওয়া গেছে।",
+                            "tags": [ "পান্ডাস", "নাম্পি", "সিবর্ন", "জুপিটার নোটবুক"]
+                        }
+                        
                     }
                 }
             ]
