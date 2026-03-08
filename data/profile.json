@@ -1,7 +1,7 @@
 {
     "name": "Malay Bhunia",
     "profilePictureUrl": "images/flags/pp-logo.jpeg",
-    "resumePdfUrl": "images/flags/Malay_Bhunia_Cv.pdf",
+    "resumePdfUrl": "images/flags/Malay Bhunia Cv.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -10,38 +10,38 @@
         "en": {
             "localized_name": "Malay Bhunia",
             "localized_name_stylized": "<strong>Malay {{Bhunia}}</strong>",
-            "status_message_available_for_freelance": "Available for hire!",
+            "status_message_available_for_freelance": "Available for hire! 💼",
             "roles": [
                 "B.Tech CSE Student",
                 "A Data Analyst",
                 "Future Data Scientist"
             ],
-            "name_pronunciation_ipa": "Welcome to my Portfolio",
-            "name_pronunciation_audio_url": "audio/music1.mp3"
+            "name_pronunciation_ipa": "Welcome to my world ❤️",
+            "name_pronunciation_audio_url": "audio/song.mp3"
         },
         "hi": {
             "localized_name": "Malay Bhunia",
             "localized_name_stylized": "<strong>मलय {{भुंइया}}</strong>",
-            "status_message_available_for_freelance": "किराये पर उपलब्ध!",
+            "status_message_available_for_freelance": "किराये पर उपलब्ध! 💼",
             "roles": [
                 "बी.टेक सीएसई छात्र",
                 "डेटा विश्लेषक",
-                "बैकएंड डेवलपर"
+                "भविष्य का डेटा वैज्ञानिक"
             ],
-            "name_pronunciation_ipa": "मेरे पोर्टफोलियो में आपका स्वागत है",
-            "name_pronunciation_audio_url": "audio/MB1_audio.mp3"
+            "name_pronunciation_ipa": "मेरी दुनिया में आपका स्वागत है। ❤️",
+            "name_pronunciation_audio_url": "audio/song.mp3"
         },
         "ben": {
             "localized_name": "Malay Bhunia",
             "localized_name_stylized": "<strong>মলয় {{ভূনিয়া}}</strong>",
-            "status_message_available_for_freelance": "ভাড়ার জন্য উপলব্ধ!",
+            "status_message_available_for_freelance": "ভাড়ার জন্য উপলব্ধ! 💼",
             "roles": [
                 "বি.টেক সিএসই স্টুডেন্ট",
-                "ডেটা অ্যানালিস্ট",
-                "ব্যাকএন্ড ডেভেলপার"
+                "একজন ডেটা বিশ্লেষক",
+                "ভবিষ্যতের ডেটা বিজ্ঞানী"
             ],
-            "name_pronunciation_ipa": "আমার পোর্টফোলিওতে স্বাগতম",
-            "name_pronunciation_audio_url": "audio/MB1_audio.mp3"
+            "name_pronunciation_ipa": "আমার জগতে স্বাগতম। ❤️",
+            "name_pronunciation_audio_url": "audio/song.mp3"
         }
     }
 }
