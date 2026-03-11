@@ -208,6 +208,34 @@
                     "img": "images/svg/vs1.png",
                     "date": { "year": null, "month": null },
                     "locales": { "en": { "title": "VScode" } }
+                },
+                {
+                    "id": 22,
+                    "categoryId": "category_libraries",
+                    "img": "images/flags/selenium.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Selenium" } }
+                },
+                {
+                    "id": 23,
+                    "categoryId": "category_libraries",
+                    "img": "images/flags/seaborn.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Seaborn" } }
+                },
+                {
+                    "id": 24,
+                    "categoryId": "category_tools",
+                    "img": "images/flags/jupy-2.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Jupyter Notebook" } }
+                },
+                {
+                    "id": 25,
+                    "categoryId": "category_tools",
+                    "img": "images/flags/g_sheet.png",
+                    "date": { "year": null, "month": null },
+                    "locales": { "en": { "title": "Google Sheet" } }
                 }
             ]
         }
